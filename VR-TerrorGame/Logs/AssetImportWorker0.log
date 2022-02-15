@@ -1,0 +1,1469 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.28f1 (f5400f52e03f) revision 16072719'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'es' Physical Memory: 32684 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.28f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Usuario/Desktop/PROYECTOS/VR-Terror/VR-TerrorGame
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49779
+Successfully changed project path to: C:/Users/Usuario/Desktop/PROYECTOS/VR-Terror/VR-TerrorGame
+C:/Users/Usuario/Desktop/PROYECTOS/VR-Terror/VR-TerrorGame
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 85.20 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 5.83 ms.
+Initialize engine version: 2020.3.28f1 (f5400f52e03f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Usuario/Desktop/PROYECTOS/VR-Terror/VR-TerrorGame/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
+    Vendor:   
+    VRAM:     8043 MB
+    Driver:   27.21.14.6172
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56296
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002164 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 79.19 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.526 seconds
+Domain Reload Profiling:
+	ReloadAssembly (527ms)
+		BeginReloadAssembly (55ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (408ms)
+			LoadAssemblies (53ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (119ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (175ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (79ms)
+				BeforeProcessingInitializeOnLoad (9ms)
+				ProcessInitializeOnLoadAttributes (62ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010682 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 74.85 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Usuario\Desktop\PROYECTOS\VR-Terror\VR-TerrorGame\Library\PackageCache\com.unity.xr.oculus@1.11.2\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Usuario\Desktop\PROYECTOS\VR-Terror\VR-TerrorGame\Library\PackageCache\com.unity.xr.oculus@1.11.2\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <af1a2f671a98418f910899d70a717c00>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.028 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1029ms)
+		BeginReloadAssembly (128ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (845ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (255ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (370ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (2ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (75ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (193ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.09 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.15 ms.
+Unloading 2670 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.0 MB.
+System memory in use after: 116.2 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3103.
+Total: 3.268800 ms (FindLiveObjects: 0.216500 ms CreateObjectMapping: 0.074700 ms MarkObjects: 2.906500 ms  DeleteObjects: 0.070200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/ExampleAssets
+  artifactKey: Guid(83b7bbecd9fac4db9824039903a1eea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets using Guid(83b7bbecd9fac4db9824039903a1eea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5464839eb3499d65eb59b6473df30c6') in 0.005764 seconds 
+  Import took 0.009177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.933140 seconds.
+  path: Assets/Scenes/Test.unity
+  artifactKey: Guid(a3848dce9a6f5b4429a3f9e7e169d919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Test.unity using Guid(a3848dce9a6f5b4429a3f9e7e169d919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a9ff1e1347d4354792e59b8070c9021') in 0.011816 seconds 
+  Import took 0.015463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.522044 seconds.
+  path: Assets/Scenes/Test.unity
+  artifactKey: Guid(a3848dce9a6f5b4429a3f9e7e169d919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Test.unity using Guid(a3848dce9a6f5b4429a3f9e7e169d919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef14c1847d2fac29aede20f79b6dffc8') in 0.002399 seconds 
+  Import took 0.005888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.853163 seconds.
+  path: Assets/Scenes/scenario.unity
+  artifactKey: Guid(a3848dce9a6f5b4429a3f9e7e169d919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scenario.unity using Guid(a3848dce9a6f5b4429a3f9e7e169d919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd35aef7bbb165d2ba78d32adb418fe1f') in 0.002747 seconds 
+  Import took 0.006464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.826726 seconds.
+  path: Assets/ExampleAssets/Tutorial/VRTutorialContainer.asset
+  artifactKey: Guid(66a752886585f42d5b39f6f643d399f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Tutorial/VRTutorialContainer.asset using Guid(66a752886585f42d5b39f6f643d399f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f8f31a6073d12b16d0bf3ab9937a0dc') in 0.021616 seconds 
+  Import took 0.025337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/ExampleAssets/Tutorial/VRTutorialStyle.asset
+  artifactKey: Guid(148a9beb0fa9a4026a837fad3a14e6a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Tutorial/VRTutorialStyle.asset using Guid(148a9beb0fa9a4026a837fad3a14e6a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dca5db9347dd0b200e39b9e8e8bdc53') in 0.014875 seconds 
+  Import took 0.018268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/ExampleAssets/Tutorial/VRTutorialWelcomePage.asset
+  artifactKey: Guid(3bf5c60804f704e11826afa05a7e2152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Tutorial/VRTutorialWelcomePage.asset using Guid(3bf5c60804f704e11826afa05a7e2152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33836ea46f643bfd62f8aea304f47cae') in 0.008386 seconds 
+  Import took 0.011499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/ExampleAssets/Tutorial/VRTutorialProjectSettings.asset
+  artifactKey: Guid(76b4acc4d12394f60a5accbec43ae2a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Tutorial/VRTutorialProjectSettings.asset using Guid(76b4acc4d12394f60a5accbec43ae2a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38a1b27bc94a34bf817f413d8bce5db5') in 0.008827 seconds 
+  Import took 0.012091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.924377 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets
+  artifactKey: Guid(5cd163d546126c949b3d63cc8012cc10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets using Guid(5cd163d546126c949b3d63cc8012cc10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d1ae4de0a00d70483b36fc79a2192db') in 0.002572 seconds 
+  Import took 0.006336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.889135 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/AddressableAssetsData
+  artifactKey: Guid(26dbd0e8f0e9281428f5b6ab80b50a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/AddressableAssetsData using Guid(26dbd0e8f0e9281428f5b6ab80b50a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81a5ff6e5c3b1056ec643d262ae53417') in 0.003012 seconds 
+  Import took 0.006640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.167954 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/AddressableAssetsData/AddressableAssetSettings.asset
+  artifactKey: Guid(ca627a99819b7cf43ae0ce0f33364a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/AddressableAssetsData/AddressableAssetSettings.asset using Guid(ca627a99819b7cf43ae0ce0f33364a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1e049ff80aca7cd96fc540f5931fdde') in 0.003491 seconds 
+  Import took 0.007117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/AddressableAssetsData/DefaultObject.asset
+  artifactKey: Guid(879dc59d21f31734c95279731f769bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/AddressableAssetsData/DefaultObject.asset using Guid(879dc59d21f31734c95279731f769bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dce0ffa844c0c7fd582a95666b512125') in 0.004423 seconds 
+  Import took 0.007928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.800546 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/AddressableAssetsData/AssetGroups
+  artifactKey: Guid(9b9a1684c222aa84e8d2c441995383f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/AddressableAssetsData/AssetGroups using Guid(9b9a1684c222aa84e8d2c441995383f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c1bdaf1d32dfb2df3772993f7d945da') in 0.002446 seconds 
+  Import took 0.005989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.079262 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/AddressableAssetsData/AssetGroups/Built In Data.asset
+  artifactKey: Guid(adbe8f8676568a647a872073f5172513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/AddressableAssetsData/AssetGroups/Built In Data.asset using Guid(adbe8f8676568a647a872073f5172513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '895a4f29531b273904a6336183b093af') in 0.003253 seconds 
+  Import took 0.006811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/AddressableAssetsData/AssetGroups/Default Local Group.asset
+  artifactKey: Guid(0ab323192c4b9244e828d574bc1219ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/AddressableAssetsData/AssetGroups/Default Local Group.asset using Guid(0ab323192c4b9244e828d574bc1219ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5deed8db0c021b16aef411f5792464db') in 0.003073 seconds 
+  Import took 0.006153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.958134 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/AddressableAssetsData/AssetGroups/Schemas
+  artifactKey: Guid(7bc3db577b6045c41bd4ddb39970a76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/AddressableAssetsData/AssetGroups/Schemas using Guid(7bc3db577b6045c41bd4ddb39970a76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a223eb54e45ee2098e84b1dc7fe0a61c') in 0.003389 seconds 
+  Import took 0.007406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.658838 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/AddressableAssetsData/AssetGroups/Schemas/Built In Data_PlayerDataGroupSchema.asset
+  artifactKey: Guid(227d9fbf7fdcbb74d8780aa1e82b330c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/AddressableAssetsData/AssetGroups/Schemas/Built In Data_PlayerDataGroupSchema.asset using Guid(227d9fbf7fdcbb74d8780aa1e82b330c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77ab44cea37cb9af4b619cfcbadb4b27') in 0.003695 seconds 
+  Import took 0.007358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/AddressableAssetsData/AssetGroups/Schemas/Default Local Group_ContentUpdateGroupSchema.asset
+  artifactKey: Guid(191da4847cb3b4346ae19819f75c1d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/AddressableAssetsData/AssetGroups/Schemas/Default Local Group_ContentUpdateGroupSchema.asset using Guid(191da4847cb3b4346ae19819f75c1d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7adbdd9cfd8063038eccbcc6d9105d16') in 0.003468 seconds 
+  Import took 0.007153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/AddressableAssetsData/AssetGroups/Schemas/Default Local Group_BundledAssetGroupSchema.asset
+  artifactKey: Guid(48ceeda35b557a94ca3dae58772731a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/AddressableAssetsData/AssetGroups/Schemas/Default Local Group_BundledAssetGroupSchema.asset using Guid(48ceeda35b557a94ca3dae58772731a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '602aa4356dc2762819397da016b230cd') in 0.004514 seconds 
+  Import took 0.007970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.450039 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/AddressableAssetsData/AssetGroupTemplates
+  artifactKey: Guid(5b36b2525ffc9214ebf09614fdbd1b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/AddressableAssetsData/AssetGroupTemplates using Guid(5b36b2525ffc9214ebf09614fdbd1b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6d9b969d24ac7179c7b195ab313c888') in 0.002577 seconds 
+  Import took 0.005893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.254643 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/AddressableAssetsData/AssetGroupTemplates/Packed Assets.asset
+  artifactKey: Guid(0a29ddc6479fb2b4993950a483deda51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/AddressableAssetsData/AssetGroupTemplates/Packed Assets.asset using Guid(0a29ddc6479fb2b4993950a483deda51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '416168f38a8f8d5d25782a368b50c9e7') in 0.002976 seconds 
+  Import took 0.006344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.474982 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content
+  artifactKey: Guid(47375fb7f08a7f14598933a120e7a589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content using Guid(47375fb7f08a7f14598933a120e7a589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a6961089dd85980004339f0219d8e50') in 0.002479 seconds 
+  Import took 0.006057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.641755 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models
+  artifactKey: Guid(06a412a21ba59f0469ebad2f9aa1482b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models using Guid(06a412a21ba59f0469ebad2f9aa1482b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12d9ac67f999ef5eb4ac202f2c301d58') in 0.002154 seconds 
+  Import took 0.005584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.257682 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs
+  artifactKey: Guid(dc6ccf1d2c703604ea3ee930d29619b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs using Guid(dc6ccf1d2c703604ea3ee930d29619b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b901bebee2d8544794c023ba5487d53') in 0.002452 seconds 
+  Import took 0.005936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.353786 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Environment
+  artifactKey: Guid(2f40666c2f6b03d4a9f27c149bac1db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Environment using Guid(2f40666c2f6b03d4a9f27c149bac1db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b7e67b48a819a38e4143057637b00d3') in 0.002500 seconds 
+  Import took 0.006005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.071365 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Environment/Water.prefab
+  artifactKey: Guid(8c91d5335764a8845839bca025f4df24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Environment/Water.prefab using Guid(8c91d5335764a8845839bca025f4df24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c7ebe8fbf1691f28f9d0673521e6cab') in 0.019114 seconds 
+  Import took 0.022846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.754831 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Environment/Rusty Pack
+  artifactKey: Guid(59982bae3ddc76642abf06a270d8825d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Environment/Rusty Pack using Guid(59982bae3ddc76642abf06a270d8825d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10f364c6937d7ed09d2498508c02c6ce') in 0.003447 seconds 
+  Import took 0.006976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.088988 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Environment/Rusty Pack/DirtySink.prefab
+  artifactKey: Guid(9d82718715168654eac66ded5a7c8acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Environment/Rusty Pack/DirtySink.prefab using Guid(9d82718715168654eac66ded5a7c8acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81f5f7429ebbb9d135a129fee3baea38') in 0.216454 seconds 
+  Import took 0.220208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Environment/Rusty Pack/DramaCupboard.prefab
+  artifactKey: Guid(4251db5772be75d479ed25bd69512932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Environment/Rusty Pack/DramaCupboard.prefab using Guid(4251db5772be75d479ed25bd69512932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ae839b574fac7fdb018a4f805aba2d5') in 0.011354 seconds 
+  Import took 0.015007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Environment/Rusty Pack/SmallCupboard.prefab
+  artifactKey: Guid(9734c9bd27107e64fa5fa7e0a0571fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Environment/Rusty Pack/SmallCupboard.prefab using Guid(9734c9bd27107e64fa5fa7e0a0571fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73351c45530f0ff9ffb8443f8752390c') in 0.010171 seconds 
+  Import took 0.013813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Environment/Rusty Pack/DirtyToilet.prefab
+  artifactKey: Guid(39bdc268748451f488582f2016123461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Environment/Rusty Pack/DirtyToilet.prefab using Guid(39bdc268748451f488582f2016123461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2fcd39ca13c5de58d1c07cc30e0cecb') in 0.009518 seconds 
+  Import took 0.013005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.054795 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Environment/Props
+  artifactKey: Guid(e6559cafcfe459b46b5ee6b9061131be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Environment/Props using Guid(e6559cafcfe459b46b5ee6b9061131be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6baed907fa9049fef1556c281bb7065b') in 0.002488 seconds 
+  Import took 0.005977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.731804 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Environment/Props/Crates
+  artifactKey: Guid(217bf6c9ca996b848b46734b1c580113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Environment/Props/Crates using Guid(217bf6c9ca996b848b46734b1c580113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58ef30c0b1a28a6e85980d19572c7da2') in 0.002675 seconds 
+  Import took 0.006480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.002652 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Environment/Props/Candles
+  artifactKey: Guid(935ee897664fbfe47bcc5e5e540524ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Environment/Props/Candles using Guid(935ee897664fbfe47bcc5e5e540524ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e9afe1ff61587fef2252a916d6c104b') in 0.003096 seconds 
+  Import took 0.006707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.081356 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Environment/Props/Candles/Candle_2Pack.prefab
+  artifactKey: Guid(1336c0c68c9165849bb2dd9d8b167c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Environment/Props/Candles/Candle_2Pack.prefab using Guid(1336c0c68c9165849bb2dd9d8b167c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a0e2c4b5b9ad68098d172cf1ba0a84f') in 0.164704 seconds 
+  Import took 0.168986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Environment/Props/Candles/Candle_Medium.prefab
+  artifactKey: Guid(a4f5fad85c037d948af79edd0623ed28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Environment/Props/Candles/Candle_Medium.prefab using Guid(a4f5fad85c037d948af79edd0623ed28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8d86c8119d92c7862d5147cde825e7d') in 0.015704 seconds 
+  Import took 0.019367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Environment/Props/Candles/Candle_Small.prefab
+  artifactKey: Guid(99d6b357b5ebbf64dbe2e679ec7d5bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Environment/Props/Candles/Candle_Small.prefab using Guid(99d6b357b5ebbf64dbe2e679ec7d5bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '521945e8c8396a2f0af45df6764f484b') in 0.013680 seconds 
+  Import took 0.017144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Environment/Props/Candles/Candle_3Pack.prefab
+  artifactKey: Guid(2a92e66ff7f63504a827ef071ea652c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Environment/Props/Candles/Candle_3Pack.prefab using Guid(2a92e66ff7f63504a827ef071ea652c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '796dc613c5f15052da23b61d5593187d') in 0.029353 seconds 
+  Import took 0.034095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Environment/Props/Candles/Candle_Big.prefab
+  artifactKey: Guid(fac9cdc370866bd48ab759ff1aa8eeb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Environment/Props/Candles/Candle_Big.prefab using Guid(fac9cdc370866bd48ab759ff1aa8eeb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58bc80e083f43622ba744eddc3b1a50a') in 0.014835 seconds 
+  Import took 0.018237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.707194 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Instantiable
+  artifactKey: Guid(5c617ee8b94c63046a6b51b9c942eaef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Instantiable using Guid(5c617ee8b94c63046a6b51b9c942eaef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f82fc91934d8244ed2600236ae39b1b4') in 0.002465 seconds 
+  Import took 0.006289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.530135 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Instantiable/ArmsItems
+  artifactKey: Guid(ea5c70ee79d901f498ab82daf6f148db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Instantiable/ArmsItems using Guid(ea5c70ee79d901f498ab82daf6f148db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbaaf54fdb798cad3be5cb444bc37cfe') in 0.002452 seconds 
+  Import took 0.006152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.063560 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Instantiable/ArmsItems/IA_Axe.prefab
+  artifactKey: Guid(907999eb6d2a6dc4499a29ac676b1257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Instantiable/ArmsItems/IA_Axe.prefab using Guid(907999eb6d2a6dc4499a29ac676b1257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b752ab92895388999a9f039ab7f8e2a2') in 0.195159 seconds 
+  Import took 0.198841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Instantiable/ArmsItems/IA_Candle.prefab
+  artifactKey: Guid(f2a82c3d00f214347a674527a3742f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Instantiable/ArmsItems/IA_Candle.prefab using Guid(f2a82c3d00f214347a674527a3742f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27cf391d1a1853e77e15ba52207598af') in 0.012985 seconds 
+  Import took 0.016816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Instantiable/ArmsItems/IA_Shotgun.prefab
+  artifactKey: Guid(2725a4ba9aacdc04aa980006570dcb02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Instantiable/ArmsItems/IA_Shotgun.prefab using Guid(2725a4ba9aacdc04aa980006570dcb02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aff56364d03aa3f8d9fceaaa6115a4e5') in 0.399684 seconds 
+  Import took 0.404303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Instantiable/ArmsItems/IA_Lantern.prefab
+  artifactKey: Guid(9dba05ac0cfb0634eb1331823de3a6cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Instantiable/ArmsItems/IA_Lantern.prefab using Guid(9dba05ac0cfb0634eb1331823de3a6cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e5a5564b0f14c5da945178593b10227') in 0.205859 seconds 
+  Import took 0.209171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Instantiable/ArmsItems/IA_Glock18.prefab
+  artifactKey: Guid(33b6fd48297dee3409c95b1dc0026c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Instantiable/ArmsItems/IA_Glock18.prefab using Guid(33b6fd48297dee3409c95b1dc0026c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a420841d51e08a4f8986667f14339b1b') in 0.015789 seconds 
+  Import took 0.019618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Instantiable/ArmsItems/IA_Flashlight.prefab
+  artifactKey: Guid(be9460d91714d3c4fb1a740259e81fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Instantiable/ArmsItems/IA_Flashlight.prefab using Guid(be9460d91714d3c4fb1a740259e81fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2710d8c998364049028351bb403666b5') in 0.194833 seconds 
+  Import took 0.198640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.230887 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Environment/Floor & Ceiling
+  artifactKey: Guid(b62813d54780a984f8efaaa54bcb800c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Environment/Floor & Ceiling using Guid(b62813d54780a984f8efaaa54bcb800c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66c0f427dc1f044ae078697556da8840') in 0.002786 seconds 
+  Import took 0.006428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.085337 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Environment/Floor & Ceiling/Ceiling.prefab
+  artifactKey: Guid(91766ca41b723b940b1cb593d54ee237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Environment/Floor & Ceiling/Ceiling.prefab using Guid(91766ca41b723b940b1cb593d54ee237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19910b7e8ef467f88139c21effd5fe54') in 0.013768 seconds 
+  Import took 0.017370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Environment/Floor & Ceiling/Floor.prefab
+  artifactKey: Guid(86f62b6e763e13e47a429ffb81f216f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Environment/Floor & Ceiling/Floor.prefab using Guid(86f62b6e763e13e47a429ffb81f216f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d92896c5dff20db8c755bf520266b39') in 0.009953 seconds 
+  Import took 0.013766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Environment/Floor & Ceiling/Floor_CeilingUV5.prefab
+  artifactKey: Guid(e837e66ae57d09e459c7d9484a2b9ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Environment/Floor & Ceiling/Floor_CeilingUV5.prefab using Guid(e837e66ae57d09e459c7d9484a2b9ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bb7260380395716a44e542673b01199') in 0.089181 seconds 
+  Import took 0.092549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 233.651751 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Environment/Hospital
+  artifactKey: Guid(be7090bdb64a64346a620159824866ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Environment/Hospital using Guid(be7090bdb64a64346a620159824866ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '976cc604f97681a83aad0631d66fc791') in 0.002434 seconds 
+  Import took 0.006132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.070186 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Environment/Hospital/Bed.prefab
+  artifactKey: Guid(71701515f332cc748a1961e730ed6067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Environment/Hospital/Bed.prefab using Guid(71701515f332cc748a1961e730ed6067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ead21487f85fec90baa0fb38555f5fe') in 0.019514 seconds 
+  Import took 0.023150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Environment/Hospital/Wheelchair.prefab
+  artifactKey: Guid(d8db11bdb5889e84db1787cee90212d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Environment/Hospital/Wheelchair.prefab using Guid(d8db11bdb5889e84db1787cee90212d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c749efd10a1ddd2fee23bf8f6580d4e0') in 0.040835 seconds 
+  Import took 0.044576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.561204 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Environment/AirDuct
+  artifactKey: Guid(d97ba1884bdc0464fa6670778a725408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Environment/AirDuct using Guid(d97ba1884bdc0464fa6670778a725408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '061824f7c3411cd7cdc1b68b6816fcd0') in 0.003777 seconds 
+  Import took 0.007478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.066338 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Environment/AirDuct/AirDuct_1m.prefab
+  artifactKey: Guid(0877a68f5032cef4f920f7d474b65f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Environment/AirDuct/AirDuct_1m.prefab using Guid(0877a68f5032cef4f920f7d474b65f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8356e7a8422732aff00faafa6591d1bf') in 0.018205 seconds 
+  Import took 0.022035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Environment/AirDuct/AirDuct_1m_Wall_Front.prefab
+  artifactKey: Guid(bc5de76293934eb49a49b5e795b567ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Environment/AirDuct/AirDuct_1m_Wall_Front.prefab using Guid(bc5de76293934eb49a49b5e795b567ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23677184a17e8f185417f115745a5a64') in 0.029410 seconds 
+  Import took 0.032817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Environment/AirDuct/AirDuct_1m_Wall_Side.prefab
+  artifactKey: Guid(65a6acc3e8a4a62418c8a20a8a82af13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Environment/AirDuct/AirDuct_1m_Wall_Side.prefab using Guid(65a6acc3e8a4a62418c8a20a8a82af13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68aeaf097a0dbf0e2f1c2077a8991c7b') in 0.022585 seconds 
+  Import took 0.026195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Environment/AirDuct/AirDuct_Spin_1m.prefab
+  artifactKey: Guid(923af61b7b5d66e458ce74a68b1ae047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Environment/AirDuct/AirDuct_Spin_1m.prefab using Guid(923af61b7b5d66e458ce74a68b1ae047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28b257c048f0e0868a5339198df641b7') in 0.026995 seconds 
+  Import took 0.030528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Environment/AirDuct/AirDuct_1m_Cap.prefab
+  artifactKey: Guid(bdb048b21dd15ae4d835be47eecf2d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Environment/AirDuct/AirDuct_1m_Cap.prefab using Guid(bdb048b21dd15ae4d835be47eecf2d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da75d17ef45719d4e7af2e44971db77b') in 0.016641 seconds 
+  Import took 0.020268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Environment/AirDuct/AirDuct_Spin_2m.prefab
+  artifactKey: Guid(5bd148a14f485ea4b9ceccbb4af0da92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Environment/AirDuct/AirDuct_Spin_2m.prefab using Guid(5bd148a14f485ea4b9ceccbb4af0da92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '032f3c0272c1fbcdeada10c7fab8152d') in 0.018901 seconds 
+  Import took 0.022639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Environment/AirDuct/AirDuct_2m.prefab
+  artifactKey: Guid(141335636ae9f614093fffeded4dd09f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Environment/AirDuct/AirDuct_2m.prefab using Guid(141335636ae9f614093fffeded4dd09f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94519d7f4dd28a8082f2e31df8d9cae5') in 0.021166 seconds 
+  Import took 0.024754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Environment/AirDuct/AirDuct_1m_Open.prefab
+  artifactKey: Guid(b5f28d00970b3ec4a84516ae40d020f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Environment/AirDuct/AirDuct_1m_Open.prefab using Guid(b5f28d00970b3ec4a84516ae40d020f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1caded978643fed2a7f1ee8f42f91a2') in 0.028102 seconds 
+  Import took 0.031710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Environment/AirDuct/AirDuct_FanBase.prefab
+  artifactKey: Guid(4bfa338ea7efc7c44a28f977147e687f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Environment/AirDuct/AirDuct_FanBase.prefab using Guid(4bfa338ea7efc7c44a28f977147e687f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2488c4dd48a29431129a8ff2054e47ff') in 0.016588 seconds 
+  Import took 0.020412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 75.318669 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Scenes
+  artifactKey: Guid(10bf5d5b23d47a248922263b518f1476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Scenes using Guid(10bf5d5b23d47a248922263b518f1476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bee519a16f59609929768c4c58500e1') in 0.002708 seconds 
+  Import took 0.006491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.622763 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive
+  artifactKey: Guid(6ffc57def175d044385b4326b315e8c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive using Guid(6ffc57def175d044385b4326b315e8c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d7915e7b3d294a716f9bb0168bf9632') in 0.002653 seconds 
+  Import took 0.006139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.348965 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Environment
+  artifactKey: Guid(fa1dcd9ac43f94f4fbb4d0b256a894ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Environment using Guid(fa1dcd9ac43f94f4fbb4d0b256a894ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '035192340e802f0646dcfdbf2bee6977') in 0.002261 seconds 
+  Import took 0.006139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.998565 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Environment/BrichTrees
+  artifactKey: Guid(743dc4f5c4b4e7848a778a75d93a7a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Environment/BrichTrees using Guid(743dc4f5c4b4e7848a778a75d93a7a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9383ad65a45ffbffb5fc702e2a5ef3b') in 0.003723 seconds 
+  Import took 0.007354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.510833 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Environment/Floor
+  artifactKey: Guid(a9cbb759985ca9046904b057960303f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Environment/Floor using Guid(a9cbb759985ca9046904b057960303f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47e6304f7d9b44ca1d6a9c78a246f158') in 0.002141 seconds 
+  Import took 0.006290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.071556 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Environment/Floor/Floor.obj
+  artifactKey: Guid(c061558a9ee7a8d40803d72f7e4ddda2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Environment/Floor/Floor.obj using Guid(c061558a9ee7a8d40803d72f7e4ddda2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73d77862f53ff45b98a43313070be59e') in 0.060525 seconds 
+  Import took 0.064219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Environment/Floor/FloorUV5x.fbx
+  artifactKey: Guid(04d9694dac1667947b556453d03953fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Environment/Floor/FloorUV5x.fbx using Guid(04d9694dac1667947b556453d03953fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d0c7167d88e3b3cf5abdc403f9d9ff6') in 0.023168 seconds 
+  Import took 0.026843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.798185 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Environment/Floor/Materials
+  artifactKey: Guid(9defbb743f7a750499cbd492ad34aafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Environment/Floor/Materials using Guid(9defbb743f7a750499cbd492ad34aafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59cf9e674aa9897e7ae698178f0238f1') in 0.002311 seconds 
+  Import took 0.006150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.070644 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Environment/Floor/Materials/Floor5x.mat
+  artifactKey: Guid(dfd4e8ec525e25f43a7e133b55c0cd45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Environment/Floor/Materials/Floor5x.mat using Guid(dfd4e8ec525e25f43a7e133b55c0cd45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8fc2a4bd6407c797f67d0b3be409e78') in 0.024828 seconds 
+  Import took 0.028410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Environment/Floor/Materials/FloorMat.mat
+  artifactKey: Guid(ad0a6256da654bc41883172375555dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Environment/Floor/Materials/FloorMat.mat using Guid(ad0a6256da654bc41883172375555dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beca7ca3d41f39cd8b86868331b4a776') in 0.010634 seconds 
+  Import took 0.013909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.769834 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Environment/SeamlessModels
+  artifactKey: Guid(374164075fa1e104889436184fd5bad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Environment/SeamlessModels using Guid(374164075fa1e104889436184fd5bad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98e40fd1d1416c3a1f2d618b579f1ea9') in 0.002349 seconds 
+  Import took 0.005956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.945301 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Environment/SeamlessModels/Walls
+  artifactKey: Guid(fb4db331c02755748882defd4206760c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Environment/SeamlessModels/Walls using Guid(fb4db331c02755748882defd4206760c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfad97eec51685af294dfd2c4e19aa3a') in 0.002722 seconds 
+  Import took 0.006331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.066708 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Environment/SeamlessModels/Walls/SeamlessWalls_Pack.fbx
+  artifactKey: Guid(1f658fb45ca5708439f3725a5e583d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Environment/SeamlessModels/Walls/SeamlessWalls_Pack.fbx using Guid(1f658fb45ca5708439f3725a5e583d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc6e1d8d4faf024def180731b648266c') in 0.169429 seconds 
+  Import took 0.173420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Environment/SeamlessModels/Walls/WallPillar.fbx
+  artifactKey: Guid(bc309d3097407de48898061cf065e42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Environment/SeamlessModels/Walls/WallPillar.fbx using Guid(bc309d3097407de48898061cf065e42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02b7258aebae7d53ac93cc90f0c3f49d') in 0.023350 seconds 
+  Import took 0.026809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Environment/SeamlessModels/Walls/WallShaft.fbx
+  artifactKey: Guid(2da1d799ea185394b89e55458a56c41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Environment/SeamlessModels/Walls/WallShaft.fbx using Guid(2da1d799ea185394b89e55458a56c41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10f20c388d254481abec09f053ed7d46') in 0.015881 seconds 
+  Import took 0.019339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.554341 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes
+  artifactKey: Guid(16561ce3b6fc8104884d07b2e818acfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes using Guid(16561ce3b6fc8104884d07b2e818acfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f087dd16bc8fbe3d76276f7234a4a367') in 0.002521 seconds 
+  Import took 0.006144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.536548 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/TheHouse Demo
+  artifactKey: Guid(b5c631b2f8a747e478fe7fab7d65cd09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/TheHouse Demo using Guid(b5c631b2f8a747e478fe7fab7d65cd09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a94791e2adcdf40521bc3128b7c87a2d') in 0.002316 seconds 
+  Import took 0.005871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.096099 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/TheHouse Demo/LightingData.asset
+  artifactKey: Guid(c926dbf39f8263a47a149bf784a8bf61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/TheHouse Demo/LightingData.asset using Guid(c926dbf39f8263a47a149bf784a8bf61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1b77c4673f703b8c5dc5b7656129065') in 0.003414 seconds 
+  Import took 0.007104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/TheHouse Demo/Lightmap-2_comp_light.exr
+  artifactKey: Guid(72044b1d63630c64e89b922517243949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/TheHouse Demo/Lightmap-2_comp_light.exr using Guid(72044b1d63630c64e89b922517243949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd15694cb35b9ece8c8040fe265924622') in 0.018013 seconds 
+  Import took 0.021710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/TheHouse Demo/Lightmap-0_comp_light.exr
+  artifactKey: Guid(1e5aa59040f3cab4697feb2daa9718b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/TheHouse Demo/Lightmap-0_comp_light.exr using Guid(1e5aa59040f3cab4697feb2daa9718b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe9fbe2d0040aa7b665f37232cc3561f') in 0.020604 seconds 
+  Import took 0.024226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/TheHouse Demo/ReflectionProbe-0.exr
+  artifactKey: Guid(0c6491ad0aa26124ba6df36925cd1d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/TheHouse Demo/ReflectionProbe-0.exr using Guid(0c6491ad0aa26124ba6df36925cd1d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9cd33d3d20d564cfc61c7fac0ed5922') in 0.032813 seconds 
+  Import took 0.036245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/TheHouse Demo/Lightmap-1_comp_light.exr
+  artifactKey: Guid(713647b2e86664749aef1dbff6eed356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/TheHouse Demo/Lightmap-1_comp_light.exr using Guid(713647b2e86664749aef1dbff6eed356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10d82e8b4722e8a13e5fa0f7c5dccca9') in 0.009642 seconds 
+  Import took 0.013213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/TheHouse Demo/OcclusionCullingData.asset
+  artifactKey: Guid(6fa3b7115740f0b41a5ac5002445f697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/TheHouse Demo/OcclusionCullingData.asset using Guid(6fa3b7115740f0b41a5ac5002445f697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f2a2c55deeb5c031c27af64e20cd517') in 0.006570 seconds 
+  Import took 0.009966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/TheHouse Demo/Lightmap-4_comp_light.exr
+  artifactKey: Guid(d5b901bb77fdb78428c94e1c37fcdf11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/TheHouse Demo/Lightmap-4_comp_light.exr using Guid(d5b901bb77fdb78428c94e1c37fcdf11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '898cde16a7fccd6271320faacbc67ee0') in 0.007913 seconds 
+  Import took 0.011204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/TheHouse Demo/Lightmap-2_comp_dir.png
+  artifactKey: Guid(403bb94880024c541a9791eab691e835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/TheHouse Demo/Lightmap-2_comp_dir.png using Guid(403bb94880024c541a9791eab691e835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3b10ed00f82c2cea607a8c15e163e46') in 0.035234 seconds 
+  Import took 0.038814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/TheHouse Demo/Lightmap-3_comp_light.exr
+  artifactKey: Guid(55f7e18fb62298b4db7e3cc96cdd228f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/TheHouse Demo/Lightmap-3_comp_light.exr using Guid(55f7e18fb62298b4db7e3cc96cdd228f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c516ca04509b9eaad8946312b982bce1') in 0.019305 seconds 
+  Import took 0.022629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/TheHouse Demo/Lightmap-3_comp_dir.png
+  artifactKey: Guid(e5194d604840794448a86f3a1df92664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/TheHouse Demo/Lightmap-3_comp_dir.png using Guid(e5194d604840794448a86f3a1df92664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f53219eeb59311a9483b450ab541ff14') in 0.011054 seconds 
+  Import took 0.014549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/TheHouse Demo/Lightmap-4_comp_dir.png
+  artifactKey: Guid(2f68737e8d4f8f9439bd07e395d13f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/TheHouse Demo/Lightmap-4_comp_dir.png using Guid(2f68737e8d4f8f9439bd07e395d13f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ccf34221a54cdd0aacee32eaa38fb35') in 0.011572 seconds 
+  Import took 0.014683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/TheHouse Demo/Lightmap-0_comp_dir.png
+  artifactKey: Guid(117b2089661c28b42823cac53b202b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/TheHouse Demo/Lightmap-0_comp_dir.png using Guid(117b2089661c28b42823cac53b202b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e8d8d0f55f88b695738f8bcd56d7839') in 0.009346 seconds 
+  Import took 0.012924 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/TheHouse Demo/Lightmap-1_comp_dir.png
+  artifactKey: Guid(ea2de1be129778c4fb61b13080dc3082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/TheHouse Demo/Lightmap-1_comp_dir.png using Guid(ea2de1be129778c4fb61b13080dc3082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '481e2a4b05ed8461640fdcde2585d7a5') in 0.013947 seconds 
+  Import took 0.017174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.098694 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/TheHouse Demo.unity
+  artifactKey: Guid(9c1e1ef0d125341449211600dac25344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/TheHouse Demo.unity using Guid(9c1e1ef0d125341449211600dac25344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97d53b3f054cd9c353fd260f1b237537') in 0.002934 seconds 
+  Import took 0.006483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 64.259140 seconds.
+  path: Assets/Level.prefab
+  artifactKey: Guid(b507d58f2917e3a4cb2f768bb3a7b4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level.prefab using Guid(b507d58f2917e3a4cb2f768bb3a7b4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bf91cf7483e79e9334f86c4ef97f486') in 0.769129 seconds 
+  Import took 0.816441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.176120 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(0cc1b79de78bc4991892d4d342d7211a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(0cc1b79de78bc4991892d4d342d7211a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a2b783607780ab52c781c33bee8514e') in 0.002295 seconds 
+  Import took 0.006150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.739890 seconds.
+  path: Assets/Scenes/scenario.unity
+  artifactKey: Guid(a3848dce9a6f5b4429a3f9e7e169d919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scenario.unity using Guid(a3848dce9a6f5b4429a3f9e7e169d919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b15c341a3cbae6c6982fc076fddde2f6') in 0.007090 seconds 
+  Import took 0.010959 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009789 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Usuario\Desktop\PROYECTOS\VR-Terror\VR-TerrorGame\Library\PackageCache\com.unity.xr.oculus@1.11.2\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Usuario\Desktop\PROYECTOS\VR-Terror\VR-TerrorGame\Library\PackageCache\com.unity.xr.oculus@1.11.2\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <af1a2f671a98418f910899d70a717c00>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.899 seconds
+Domain Reload Profiling:
+	ReloadAssembly (899ms)
+		BeginReloadAssembly (113ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (733ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (248ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (284ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (183ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.11 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.16 ms.
+Unloading 2596 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.9 MB.
+System memory in use after: 132.1 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3163.
+Total: 2.941300 ms (FindLiveObjects: 0.233300 ms CreateObjectMapping: 0.063700 ms MarkObjects: 2.587000 ms  DeleteObjects: 0.056500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1101.116223 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Textures/Environment/Walls & Floors/Wall_Vintage03/ModernDiamondFlourishWallpaper_albedo.png
+  artifactKey: Guid(4f1fcfddd54a93243a2d9b73b9cd81a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Textures/Environment/Walls & Floors/Wall_Vintage03/ModernDiamondFlourishWallpaper_albedo.png using Guid(4f1fcfddd54a93243a2d9b73b9cd81a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf41af06006073673248c6bb26f27397') in 0.031652 seconds 
+  Import took 0.035931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Textures/Environment/Walls & Floors/Wall_Vintage03/ModernDiamondFlourishWallpaper_ambientocclusion.png
+  artifactKey: Guid(905a25053239c234c8c446f24b9b4e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Textures/Environment/Walls & Floors/Wall_Vintage03/ModernDiamondFlourishWallpaper_ambientocclusion.png using Guid(905a25053239c234c8c446f24b9b4e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c650374a8f7971490b63cb7446e0f9f') in 0.010310 seconds 
+  Import took 0.013930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Textures/Environment/Walls & Floors/Wall_Vintage03/ModernDiamondFlourishWallpaper_emissive.png
+  artifactKey: Guid(13a7d915733b12743a8fe84f1e8c80c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Textures/Environment/Walls & Floors/Wall_Vintage03/ModernDiamondFlourishWallpaper_emissive.png using Guid(13a7d915733b12743a8fe84f1e8c80c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad393c27a8b6bf4cd67e7124fbc2d936') in 0.007723 seconds 
+  Import took 0.010995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Textures/Environment/Walls & Floors/Wall_Vintage03/ModernDiamondFlourishWallpaper_height.png
+  artifactKey: Guid(eaa6e33e698adce4c93e0de95920eb29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Textures/Environment/Walls & Floors/Wall_Vintage03/ModernDiamondFlourishWallpaper_height.png using Guid(eaa6e33e698adce4c93e0de95920eb29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa778b67c68de6d619e8a62079aa21c6') in 0.007309 seconds 
+  Import took 0.010797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Textures/Environment/Walls & Floors/Wall_Vintage03/ModernDiamondFlourishWallpaper_opacity.png
+  artifactKey: Guid(861a455223699154b962a991d2dea4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Textures/Environment/Walls & Floors/Wall_Vintage03/ModernDiamondFlourishWallpaper_opacity.png using Guid(861a455223699154b962a991d2dea4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f72057057905f7e86e8afd2a44bf7c81') in 0.007639 seconds 
+  Import took 0.011190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Textures/Environment/Walls & Floors/Wall_Vintage03/ModernDiamondFlourishWallpaper_normal.png
+  artifactKey: Guid(5f48154df37dc3442be68cf728160c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Textures/Environment/Walls & Floors/Wall_Vintage03/ModernDiamondFlourishWallpaper_normal.png using Guid(5f48154df37dc3442be68cf728160c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2bfb35c7f4c734dfc597ca536cdc38d') in 0.013691 seconds 
+  Import took 0.017042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Textures/Environment/Walls & Floors/Wall_Vintage03/ModernDiamondFlourishWallpaper_specular.png
+  artifactKey: Guid(9444cabb7ca905a4a91b4eef17d741b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Textures/Environment/Walls & Floors/Wall_Vintage03/ModernDiamondFlourishWallpaper_specular.png using Guid(9444cabb7ca905a4a91b4eef17d741b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b4aa4b72b5fdcc7facde9bdb82ae82e') in 0.008817 seconds 
+  Import took 0.012273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2157.945420 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Textures/Environment/Walls & Floors/Wall_Vintage02/vintage_pattern01_n.png
+  artifactKey: Guid(403d8dbf16b472e4bb9c4ae6342ce90a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Textures/Environment/Walls & Floors/Wall_Vintage02/vintage_pattern01_n.png using Guid(403d8dbf16b472e4bb9c4ae6342ce90a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23d590cae483a27d388e00320950001b') in 0.016735 seconds 
+  Import took 0.021015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Textures/Environment/Walls & Floors/Wall_Vintage02/vintage_pattern02.png
+  artifactKey: Guid(e7c6d50cc5fffbf4aa48a45880444a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Textures/Environment/Walls & Floors/Wall_Vintage02/vintage_pattern02.png using Guid(e7c6d50cc5fffbf4aa48a45880444a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4e38449ef227ad71e6cb7f25691ebbd') in 0.015818 seconds 
+  Import took 0.019324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 76.002526 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Wall/Ceiling01.mat
+  artifactKey: Guid(57aa82452ef6a7f498226d5ae66dd242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Wall/Ceiling01.mat using Guid(57aa82452ef6a7f498226d5ae66dd242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61a677e3aec3b48db2d70090252bf493') in 0.033701 seconds 
+  Import took 0.037596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Wall/Wall_Vintage02 1.mat
+  artifactKey: Guid(947006752b6582f4c92ddf4819b4a13f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Wall/Wall_Vintage02 1.mat using Guid(947006752b6582f4c92ddf4819b4a13f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59c4736436a58babd6809f0342ac6a41') in 0.017106 seconds 
+  Import took 0.020473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Wall/Ceiling02.mat
+  artifactKey: Guid(220c8a290c79bb943926252194affb47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Wall/Ceiling02.mat using Guid(220c8a290c79bb943926252194affb47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd397172f23ebcf112883f80fb7328f5') in 0.024727 seconds 
+  Import took 0.028465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Wall/Wall_Vintage01.mat
+  artifactKey: Guid(10e6eb7d0f9600949b93a83d0162fa94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Wall/Wall_Vintage01.mat using Guid(10e6eb7d0f9600949b93a83d0162fa94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dee38c9f26bb10829e1a28d631bb1f3') in 0.096186 seconds 
+  Import took 0.099913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Wall/Wall_Brick02.mat
+  artifactKey: Guid(eadc3364208408044868feda29da61da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Wall/Wall_Brick02.mat using Guid(eadc3364208408044868feda29da61da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50a0ac8062dc9e565ceb9b8465f103bb') in 0.023688 seconds 
+  Import took 0.027682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Wall/Wall_Vintage04.mat
+  artifactKey: Guid(10fdeeb1fca76b543a285497c5f357f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Wall/Wall_Vintage04.mat using Guid(10fdeeb1fca76b543a285497c5f357f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80d6cbaa77a92e64ad14e2ca836da39e') in 0.025166 seconds 
+  Import took 0.029060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Wall/Wall01.mat
+  artifactKey: Guid(4de4c0aa2ecbdc04681c4da0fdbd1867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Wall/Wall01.mat using Guid(4de4c0aa2ecbdc04681c4da0fdbd1867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff28e97ef396890fc9874ab51a78b08d') in 0.020071 seconds 
+  Import took 0.023464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Wall/Wall_Brick03.mat
+  artifactKey: Guid(431567b2c52cadd4ba22f6bc5a43e709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Wall/Wall_Brick03.mat using Guid(431567b2c52cadd4ba22f6bc5a43e709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59b39e2e9463fa7c19ee591cab569508') in 0.014966 seconds 
+  Import took 0.018544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Wall/Ceiling03.mat
+  artifactKey: Guid(61b6140fb1f401a4bbbef40fae7abbc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Wall/Ceiling03.mat using Guid(61b6140fb1f401a4bbbef40fae7abbc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d7366bc0eeba59c7fe3d339f4b99fdb') in 0.012120 seconds 
+  Import took 0.015868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Wall/Ceiling04.mat
+  artifactKey: Guid(f525cff7a0f5f19498e7dfb1560cdec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Wall/Ceiling04.mat using Guid(f525cff7a0f5f19498e7dfb1560cdec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c79bf583472c2e5076a827eaa254d083') in 0.016014 seconds 
+  Import took 0.019724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Wall/Wall_Brick04.mat
+  artifactKey: Guid(8a57d43d737e7d046b7b3f3ea9ec91af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Wall/Wall_Brick04.mat using Guid(8a57d43d737e7d046b7b3f3ea9ec91af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba204e24d286009440034e0d1f5b82c5') in 0.206097 seconds 
+  Import took 0.209368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Wall/Wall_Brick01.mat
+  artifactKey: Guid(c7ce43c3e6625aa44ab48fcb5baf0d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Wall/Wall_Brick01.mat using Guid(c7ce43c3e6625aa44ab48fcb5baf0d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d1e52c5fcd4d02ba22ebe51eef6ff5e') in 0.094940 seconds 
+  Import took 0.098814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Wall/Wall_Vintage02.mat
+  artifactKey: Guid(f50e2e887027083448236ba678dcb8a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Wall/Wall_Vintage02.mat using Guid(f50e2e887027083448236ba678dcb8a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca8dc2ab3789f4dc4980d0f6e0021552') in 0.011302 seconds 
+  Import took 0.014873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 405.103120 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Floor
+  artifactKey: Guid(14abbdfc3cb0849428999ff6efaeae41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Floor using Guid(14abbdfc3cb0849428999ff6efaeae41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ca0dfecc3fd5e562f0d505834425e93') in 0.002316 seconds 
+  Import took 0.006360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.059440 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Floor/Floor01.mat
+  artifactKey: Guid(ab2f2e64222ac7744ac17a6b98e92937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Floor/Floor01.mat using Guid(ab2f2e64222ac7744ac17a6b98e92937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae02418e91429dbbead8fa2c3b27f983') in 0.015731 seconds 
+  Import took 0.019487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Floor/Floor_Tiles05.mat
+  artifactKey: Guid(d41ed612b5f42f0419a34b5b265f821f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Floor/Floor_Tiles05.mat using Guid(d41ed612b5f42f0419a34b5b265f821f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '185c21aa5b2a6ac51391904dc9bae492') in 0.029038 seconds 
+  Import took 0.032595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Floor/Floor_Tiles04.mat
+  artifactKey: Guid(bed1c8f5f47c13a429d92c81b89df6e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Floor/Floor_Tiles04.mat using Guid(bed1c8f5f47c13a429d92c81b89df6e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '890a3057d9993159fba9cbbd4d4876c8') in 0.019110 seconds 
+  Import took 0.022777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Floor/Floor_Tiles10.mat
+  artifactKey: Guid(a1e98bb297daba145b94797a67bdc410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Floor/Floor_Tiles10.mat using Guid(a1e98bb297daba145b94797a67bdc410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb7a436d3aa023cc197435af30d5e225') in 0.017343 seconds 
+  Import took 0.020520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Floor/Floor_Tiles02.mat
+  artifactKey: Guid(35a404f811ed448479740436a7e39331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Floor/Floor_Tiles02.mat using Guid(35a404f811ed448479740436a7e39331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ce8472e9560274798e9a12735bdb8ad') in 0.025136 seconds 
+  Import took 0.028782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Floor/Floor_Tiles09.mat
+  artifactKey: Guid(6f779d164cbf906408b74779e8948dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Floor/Floor_Tiles09.mat using Guid(6f779d164cbf906408b74779e8948dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd717d1725c0f0d5065e887b6ac2d3d9d') in 0.024859 seconds 
+  Import took 0.028355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Floor/Floor_Tiles08.mat
+  artifactKey: Guid(0be5ae5ab2f538949b9bd46b65dce98a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Floor/Floor_Tiles08.mat using Guid(0be5ae5ab2f538949b9bd46b65dce98a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ed5aa74c37395bb4d716b5c644c0641') in 0.009751 seconds 
+  Import took 0.013225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Floor/Floor_Tiles07.mat
+  artifactKey: Guid(819319b2819751847b0fda9393b4482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Floor/Floor_Tiles07.mat using Guid(819319b2819751847b0fda9393b4482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd615b649684adec756b108ea43c8de19') in 0.010958 seconds 
+  Import took 0.014437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Floor/Floor_Tiles03.mat
+  artifactKey: Guid(0e072018d6deb6f4da6110104550915d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Floor/Floor_Tiles03.mat using Guid(0e072018d6deb6f4da6110104550915d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7b98b905708ca3024bd69cca300e6e2') in 0.014956 seconds 
+  Import took 0.018627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Floor/Floor_Tiles06.mat
+  artifactKey: Guid(ee484ac3d4c2bd940bc7230d2662c0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Floor/Floor_Tiles06.mat using Guid(ee484ac3d4c2bd940bc7230d2662c0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb5eae8f0d3a173ed4a0d2bb4a355c8b') in 0.015749 seconds 
+  Import took 0.019351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Floor/Floor_Tiles01.mat
+  artifactKey: Guid(308636770212b1f49a22f14b526a3376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Floor/Floor_Tiles01.mat using Guid(308636770212b1f49a22f14b526a3376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd2b816560333a38b53d22ba755a2d6b') in 0.011149 seconds 
+  Import took 0.014583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1298.777068 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Wall
+  artifactKey: Guid(77e3c7cd56eac504794547af71c72587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Wall using Guid(77e3c7cd56eac504794547af71c72587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '832d4273223d08c4f0557b4c7df474ee') in 0.002501 seconds 
+  Import took 0.006503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 103.765277 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Water
+  artifactKey: Guid(5c26f8722608ea64fa2ec40a3ba74283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Water using Guid(5c26f8722608ea64fa2ec40a3ba74283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ffa0c6473e1d0f5885fef76dc82aeca') in 0.002265 seconds 
+  Import took 0.005949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.080166 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Water/WaterMaterial 1.mat
+  artifactKey: Guid(a16076cad186b1c4792d52108efc8719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Water/WaterMaterial 1.mat using Guid(a16076cad186b1c4792d52108efc8719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c973ddb0ecdbadd6e4e7a003a59845bd') in 0.189135 seconds 
+  Import took 0.192788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Water/WaterMaterial.mat
+  artifactKey: Guid(66ace7069d34afc4fbbd9edb64491323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Water/WaterMaterial.mat using Guid(66ace7069d34afc4fbbd9edb64491323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af3381ac8afbb08e3a07f591534944d9') in 0.016931 seconds 
+  Import took 0.020634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.772947 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Skybox
+  artifactKey: Guid(f60b26d92d85a8747992099c858c1f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Skybox using Guid(f60b26d92d85a8747992099c858c1f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af12186b971e20efef139588b9aa3c71') in 0.002223 seconds 
+  Import took 0.005851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.142462 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Skybox/Night_Skybox01.mat
+  artifactKey: Guid(2fe45466fccf7464e8f94ab0becbdbf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Skybox/Night_Skybox01.mat using Guid(2fe45466fccf7464e8f94ab0becbdbf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d0d0f94e79e2970278debae027aeda3') in 0.018836 seconds 
+  Import took 0.022657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Skybox/Night_Skybox05.mat
+  artifactKey: Guid(dd633ef89cf5b664db8871e69e6190e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Skybox/Night_Skybox05.mat using Guid(dd633ef89cf5b664db8871e69e6190e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f49070eb02aa602c79d36ec8c03cb9e6') in 0.021275 seconds 
+  Import took 0.025127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Skybox/Night_Skybox04.mat
+  artifactKey: Guid(8f2b32720bad659429c6e5fbdb323d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Skybox/Night_Skybox04.mat using Guid(8f2b32720bad659429c6e5fbdb323d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06b38dd71ca48b57349994642c52588c') in 0.034933 seconds 
+  Import took 0.038264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Skybox/Night_Skybox03.mat
+  artifactKey: Guid(025ba6a6aa9f18c4492c84bd1ee7d260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Skybox/Night_Skybox03.mat using Guid(025ba6a6aa9f18c4492c84bd1ee7d260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2e0ba1ea1b30ee765896266521e49b1') in 0.012613 seconds 
+  Import took 0.016376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Skybox/Night_Skybox02.mat
+  artifactKey: Guid(5f0c0a22474caeb438260b3805bf51a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Skybox/Night_Skybox02.mat using Guid(5f0c0a22474caeb438260b3805bf51a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c38cf4cf4c6f2bdcb88139e195583a6') in 0.014313 seconds 
+  Import took 0.017640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.561344 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Other
+  artifactKey: Guid(655a64ce52e124547887d05304f213d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Other using Guid(655a64ce52e124547887d05304f213d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '963cf3c33e7927885c81484fc19637e6') in 0.002441 seconds 
+  Import took 0.006184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.491065 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Other/BulletTrail.mat
+  artifactKey: Guid(19d0a9c8a09181e43bd9b97bc441771b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Other/BulletTrail.mat using Guid(19d0a9c8a09181e43bd9b97bc441771b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b897387e3272b933345b462b4527b83a') in 1.378173 seconds 
+  Import took 1.381822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Other/Invisible.mat
+  artifactKey: Guid(34c1178bf4d202c429f2d978a5f6907f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Other/Invisible.mat using Guid(34c1178bf4d202c429f2d978a5f6907f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d291263c2a73509e1dcae865d49b1d1') in 0.011661 seconds 
+  Import took 0.015221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.184234 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Ground
+  artifactKey: Guid(74db6b5357b266748a1a17f2204a2b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Ground using Guid(74db6b5357b266748a1a17f2204a2b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb1b758f7aecf8d7ea21a7f325335650') in 0.002642 seconds 
+  Import took 0.006423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.071870 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Ground/Dirt.mat
+  artifactKey: Guid(b7836b6454f256047b9a1c6d53eff254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Ground/Dirt.mat using Guid(b7836b6454f256047b9a1c6d53eff254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71770708f9c1b4e2703062fbc93eb23d') in 0.010823 seconds 
+  Import took 0.014616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Ground/Grass02.mat
+  artifactKey: Guid(4e961b3d0495a1e4e9ffbaeceb5f7653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Ground/Grass02.mat using Guid(4e961b3d0495a1e4e9ffbaeceb5f7653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '658c14dd3bfcc82a2e6356af0afe06a2') in 0.235275 seconds 
+  Import took 0.238492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Ground/Grass01.mat
+  artifactKey: Guid(a532981d8a020e34da55fc7c4b590ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Ground/Grass01.mat using Guid(a532981d8a020e34da55fc7c4b590ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc9ff57c08f3e48716ea6a251a50a513') in 0.018301 seconds 
+  Import took 0.022027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.591132 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Doors
+  artifactKey: Guid(db259b75a28067449a8efa64acd34851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Doors using Guid(db259b75a28067449a8efa64acd34851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43cbeeec52e7d6e05a26c7e08d9bc760') in 0.002345 seconds 
+  Import took 0.005773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.793690 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Doors/Door Materials
+  artifactKey: Guid(397e356f995d9cf43aed832c188538e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Doors/Door Materials using Guid(397e356f995d9cf43aed832c188538e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9db0f1ab5025b034f1c826209f0e1df1') in 0.002323 seconds 
+  Import took 0.005961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.690065 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Doors/Door Materials/HouseDoor02
+  artifactKey: Guid(071584ee976067849b3a584bd64e1831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Doors/Door Materials/HouseDoor02 using Guid(071584ee976067849b3a584bd64e1831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '884af22b4ac29cf3a17543bc448105eb') in 0.002309 seconds 
+  Import took 0.005969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.083496 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Doors/Door Materials/HouseDoor02/HouseDoor02_Brown.mat
+  artifactKey: Guid(52fcedb5f7430d34bafdf29a3a1e8ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Doors/Door Materials/HouseDoor02/HouseDoor02_Brown.mat using Guid(52fcedb5f7430d34bafdf29a3a1e8ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '191f3aaeaca5c936a52f47e2eddb47b7') in 0.015856 seconds 
+  Import took 0.019686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Doors/Door Materials/HouseDoor02/HouseDoor02_White.mat
+  artifactKey: Guid(f243a11602e29184a9b873bbd132e8ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Doors/Door Materials/HouseDoor02/HouseDoor02_White.mat using Guid(f243a11602e29184a9b873bbd132e8ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e859f6a0c88b8b83102ce0951af1e51') in 0.043162 seconds 
+  Import took 0.046902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 763.773039 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Wall/Wall_Vintage03.mat
+  artifactKey: Guid(8416e4afbf7475b479a8088fb50cb85d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Wall/Wall_Vintage03.mat using Guid(8416e4afbf7475b479a8088fb50cb85d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5eb11a5abeeb7e1c60cc12b96e0751f') in 0.018655 seconds 
+  Import took 0.022867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 204.414694 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Floor/Floor_Tiles01.mat
+  artifactKey: Guid(308636770212b1f49a22f14b526a3376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Materials/Environment/Floor/Floor_Tiles01.mat using Guid(308636770212b1f49a22f14b526a3376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5edf98a06a1cf854fef9e5a6d2a0e916') in 0.016250 seconds 
+  Import took 0.020364 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
