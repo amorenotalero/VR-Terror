@@ -15,12 +15,21 @@ C:/Users/anton/Documents/VR-Terror/VR-TerrorGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< Updated upstream
 55904
 Successfully changed project path to: C:/Users/anton/Documents/VR-Terror/VR-TerrorGame
 C:/Users/anton/Documents/VR-Terror/VR-TerrorGame
 Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 85.39 ms, found 11 plugins.
 Preloading 2 native plugins for Editor in 1.65 ms.
+=======
+56448
+Successfully changed project path to: C:/Users/anton/Documents/VR-Terror/VR-TerrorGame
+C:/Users/anton/Documents/VR-Terror/VR-TerrorGame
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 127.89 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 1.54 ms.
+>>>>>>> Stashed changes
 Initialize engine version: 2020.3.28f1 (f5400f52e03f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/anton/Documents/VR-Terror/VR-TerrorGame/Assets
@@ -35,6 +44,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< Updated upstream
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56748
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
@@ -48,11 +58,27 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (569ms)
 		BeginReloadAssembly (55ms)
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56252
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001836 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 76.96 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.543 seconds
+Domain Reload Profiling:
+	ReloadAssembly (543ms)
+		BeginReloadAssembly (53ms)
+>>>>>>> Stashed changes
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
+<<<<<<< Updated upstream
 		EndReloadAssembly (445ms)
 			LoadAssemblies (53ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
@@ -66,6 +92,21 @@ Domain Reload Profiling:
 				RefreshPlugins (78ms)
 				BeforeProcessingInitializeOnLoad (10ms)
 				ProcessInitializeOnLoadAttributes (71ms)
+=======
+		EndReloadAssembly (428ms)
+			LoadAssemblies (51ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (131ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (185ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (77ms)
+				BeforeProcessingInitializeOnLoad (10ms)
+				ProcessInitializeOnLoadAttributes (70ms)
+>>>>>>> Stashed changes
 				ProcessInitializeOnLoadMethodAttributes (23ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -73,11 +114,19 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< Updated upstream
 Registered in 0.008467 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 75.52 ms, found 11 plugins.
 Preloading 2 native plugins for Editor in 0.14 ms.
+=======
+Registered in 0.018350 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 77.68 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+>>>>>>> Stashed changes
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
 [XR] Oculus Input lifecycle provider registered.
@@ -98,14 +147,22 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
+<<<<<<< Updated upstream
 - Completed reload, in  1.138 seconds
 Domain Reload Profiling:
 	ReloadAssembly (1139ms)
 		BeginReloadAssembly (164ms)
+=======
+- Completed reload, in  1.182 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1183ms)
+		BeginReloadAssembly (132ms)
+>>>>>>> Stashed changes
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< Updated upstream
 			CreateAndSetChildDomain (16ms)
 		EndReloadAssembly (921ms)
 			LoadAssemblies (87ms)
@@ -125,10 +182,32 @@ Domain Reload Profiling:
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
+=======
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (996ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (340ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (388ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (78ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (208ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+>>>>>>> Stashed changes
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+<<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 0.93 ms, found 11 plugins.
 Preloading 2 native plugins for Editor in 0.13 ms.
 Unloading 2670 Unused Serialized files (Serialized files now loaded: 0)
@@ -137,6 +216,16 @@ System memory in use after: 119.6 MB.
 
 Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3112.
 Total: 3.099300 ms (FindLiveObjects: 0.207600 ms CreateObjectMapping: 0.201700 ms MarkObjects: 2.608200 ms  DeleteObjects: 0.080500 ms)
+=======
+Refreshing native plugins compatible for Editor in 1.12 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.16 ms.
+Unloading 2776 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.3 MB.
+System memory in use after: 134.5 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3218.
+Total: 4.230500 ms (FindLiveObjects: 0.251900 ms CreateObjectMapping: 0.180600 ms MarkObjects: 3.722600 ms  DeleteObjects: 0.074500 ms)
+>>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -150,6 +239,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
   path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Environment/Floor/FloorUV5x.fbx
   artifactKey: Guid(04d9694dac1667947b556453d03953fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Environment/Floor/FloorUV5x.fbx using Guid(04d9694dac1667947b556453d03953fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92f6d84fb87a7d742e7b4f3e8a452e3f') in 0.156252 seconds 
@@ -506,5 +596,11 @@ Received Import Request.
   artifactKey: Guid(05ea98d7cb754ee47a0d9451ae467efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/AssetPacks/RustyModelsPack/drama_cupboard/DirtyCupboard01.mat using Guid(05ea98d7cb754ee47a0d9451ae467efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd4e2b337cb468d6950e4a7aad80c26c') in 0.036811 seconds 
   Import took 0.041019 seconds .
+=======
+  path: Assets/Scenes/scenario.unity
+  artifactKey: Guid(a3848dce9a6f5b4429a3f9e7e169d919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scenario.unity using Guid(a3848dce9a6f5b4429a3f9e7e169d919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ff525e0b29e1c32bf65ca81c023d06a') in 0.024081 seconds 
+  Import took 0.029470 seconds .
+>>>>>>> Stashed changes
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
