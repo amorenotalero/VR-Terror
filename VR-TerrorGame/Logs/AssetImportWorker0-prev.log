@@ -15,12 +15,12 @@ C:/Users/Usuario/Desktop/PROYECTOS/VR-Terror/VR-TerrorGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53076
+49567
 Successfully changed project path to: C:/Users/Usuario/Desktop/PROYECTOS/VR-Terror/VR-TerrorGame
 C:/Users/Usuario/Desktop/PROYECTOS/VR-Terror/VR-TerrorGame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 85.65 ms, found 11 plugins.
-Preloading 2 native plugins for Editor in 5.42 ms.
+Refreshing native plugins compatible for Editor in 86.84 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 5.20 ms.
 Initialize engine version: 2020.3.28f1 (f5400f52e03f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/Usuario/Desktop/PROYECTOS/VR-Terror/VR-TerrorGame/Assets
@@ -35,37 +35,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56392
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56428
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002056 seconds.
+Registered in 0.002003 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 77.27 ms, found 11 plugins.
-Preloading 2 native plugins for Editor in 0.12 ms.
+Refreshing native plugins compatible for Editor in 77.73 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.517 seconds
+- Completed reload, in  0.518 seconds
 Domain Reload Profiling:
-	ReloadAssembly (517ms)
-		BeginReloadAssembly (55ms)
+	ReloadAssembly (518ms)
+		BeginReloadAssembly (57ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
 		EndReloadAssembly (399ms)
-			LoadAssemblies (53ms)
+			LoadAssemblies (55ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (118ms)
+			SetupTypeCache (119ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (25ms)
+			RebuildScriptCaches (23ms)
 			SetupLoadedEditorAssemblies (175ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (77ms)
+				RefreshPlugins (78ms)
 				BeforeProcessingInitializeOnLoad (9ms)
-				ProcessInitializeOnLoadAttributes (64ms)
+				ProcessInitializeOnLoadAttributes (63ms)
 				ProcessInitializeOnLoadMethodAttributes (21ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -73,11 +73,11 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.010259 seconds.
+Registered in 0.010045 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 79.03 ms, found 11 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
+Refreshing native plugins compatible for Editor in 77.21 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
 [XR] Oculus Input lifecycle provider registered.
@@ -98,28 +98,28 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.048 seconds
+- Completed reload, in  1.034 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1048ms)
-		BeginReloadAssembly (133ms)
+	ReloadAssembly (1035ms)
+		BeginReloadAssembly (129ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (859ms)
-			LoadAssemblies (92ms)
+		EndReloadAssembly (849ms)
+			LoadAssemblies (91ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (259ms)
+			SetupTypeCache (260ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (372ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (367ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (2ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (79ms)
-				BeforeProcessingInitializeOnLoad (73ms)
-				ProcessInitializeOnLoadAttributes (192ms)
+				RefreshPlugins (77ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (190ms)
 				ProcessInitializeOnLoadMethodAttributes (18ms)
 				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
@@ -129,14 +129,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.03 ms, found 11 plugins.
-Preloading 2 native plugins for Editor in 0.14 ms.
-Unloading 2670 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 118.0 MB.
-System memory in use after: 118.2 MB.
+Refreshing native plugins compatible for Editor in 1.26 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+Unloading 2776 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.8 MB.
+System memory in use after: 133.0 MB.
 
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3108.
-Total: 3.243800 ms (FindLiveObjects: 0.226100 ms CreateObjectMapping: 0.066400 ms MarkObjects: 2.879100 ms  DeleteObjects: 0.071200 ms)
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3215.
+Total: 3.170800 ms (FindLiveObjects: 0.211100 ms CreateObjectMapping: 0.066700 ms MarkObjects: 2.814700 ms  DeleteObjects: 0.077500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -150,129 +150,9 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Props/_Packs/Pictures_Pack/Painting/Materials/Painting05.mat
-  artifactKey: Guid(3d15f9f32bc06aa4b89ef6f945dcff65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Props/_Packs/Pictures_Pack/Painting/Materials/Painting05.mat using Guid(3d15f9f32bc06aa4b89ef6f945dcff65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7867951e4d4e387fe7773d998c7b6dc0') in 0.091083 seconds 
-  Import took 0.094965 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Props/_Packs/Pictures_Pack/Painting/Materials/Painting03.mat
-  artifactKey: Guid(2c1260ebca2188140aae61f06f1b3610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Props/_Packs/Pictures_Pack/Painting/Materials/Painting03.mat using Guid(2c1260ebca2188140aae61f06f1b3610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0724428578e857a2597767d68d0ea2ce') in 0.010009 seconds 
-  Import took 0.013416 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Props/_Packs/Pictures_Pack/Painting/Materials/Painting06.mat
-  artifactKey: Guid(15b6b081b93bbfb42bce065a10ce87fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Props/_Packs/Pictures_Pack/Painting/Materials/Painting06.mat using Guid(15b6b081b93bbfb42bce065a10ce87fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30a10cd9c5d318ff7e2c58d8fbbd8a1c') in 0.021540 seconds 
-  Import took 0.024929 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Props/_Packs/Pictures_Pack/Painting/Materials/Painting02.mat
-  artifactKey: Guid(8a79ed7c9cb20d247997f22fe7f7233f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Props/_Packs/Pictures_Pack/Painting/Materials/Painting02.mat using Guid(8a79ed7c9cb20d247997f22fe7f7233f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a9e307354b30a097bd105de22a8f0c7') in 0.008664 seconds 
-  Import took 0.012069 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Props/_Packs/Pictures_Pack/Painting/Materials/Painting04.mat
-  artifactKey: Guid(311a50c345ecab241a2d7e3ced57fc4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Props/_Packs/Pictures_Pack/Painting/Materials/Painting04.mat using Guid(311a50c345ecab241a2d7e3ced57fc4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd870b7da9f72c076116882d247e90edd') in 0.009950 seconds 
-  Import took 0.013294 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Props/_Packs/Pictures_Pack/Painting/Materials/Painting.mat
-  artifactKey: Guid(fc2608e4f05e7814992c2f6257db032f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Props/_Packs/Pictures_Pack/Painting/Materials/Painting.mat using Guid(fc2608e4f05e7814992c2f6257db032f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23245ba69c5f35e27410e01699745644') in 0.018818 seconds 
-  Import took 0.022210 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000133 seconds.
-  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Props/_Packs/Pictures_Pack/Painting/Materials/Painting01.mat
-  artifactKey: Guid(3013bdaf4ea50a743a2710f7bceabf7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Props/_Packs/Pictures_Pack/Painting/Materials/Painting01.mat using Guid(3013bdaf4ea50a743a2710f7bceabf7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '910b280bb2e4baf34d5d359c96530376') in 0.008776 seconds 
-  Import took 0.011981 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Props/_Packs/Pictures_Pack/Painting/Materials/Painting07.mat
-  artifactKey: Guid(f3093250a73df5a469f2ebb2f0f4addd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Props/_Packs/Pictures_Pack/Painting/Materials/Painting07.mat using Guid(f3093250a73df5a469f2ebb2f0f4addd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ad9da41f037c0965cd47dcb8a6106b0') in 0.008635 seconds 
-  Import took 0.012559 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 91.302844 seconds.
-  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/AssetPacks/VictorianModelsPack/Materials/VictorianChandelier_Mat.mat
-  artifactKey: Guid(a695b88c52deb5d4583318b1f0cd2158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/AssetPacks/VictorianModelsPack/Materials/VictorianChandelier_Mat.mat using Guid(a695b88c52deb5d4583318b1f0cd2158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e89f59a2fadc9fb021d4c3ddc00b82c7') in 0.035013 seconds 
-  Import took 0.039133 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000134 seconds.
-  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/AssetPacks/VictorianModelsPack/Materials/VictorianPicture01_Mat.mat
-  artifactKey: Guid(e5c781ab46e3fac4a972d5ef317f2a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/AssetPacks/VictorianModelsPack/Materials/VictorianPicture01_Mat.mat using Guid(e5c781ab46e3fac4a972d5ef317f2a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49fd0749fd1fffe6f8529fe3a9bfc162') in 0.013469 seconds 
-  Import took 0.017019 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/AssetPacks/VictorianModelsPack/Materials/VictorianPicture03_Mat.mat
-  artifactKey: Guid(5eb94f1187acaff4a86804575833ed3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/AssetPacks/VictorianModelsPack/Materials/VictorianPicture03_Mat.mat using Guid(5eb94f1187acaff4a86804575833ed3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8a7adc69dba213d59cb5c47a2a01640') in 0.015666 seconds 
-  Import took 0.019172 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/AssetPacks/VictorianModelsPack/Materials/VictorianPicture04_Mat.mat
-  artifactKey: Guid(fbcef549745c5cb419e82082957e361a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/AssetPacks/VictorianModelsPack/Materials/VictorianPicture04_Mat.mat using Guid(fbcef549745c5cb419e82082957e361a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b9289c915129f9332dd0892dd322887') in 0.019237 seconds 
-  Import took 0.022402 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/AssetPacks/VictorianModelsPack/Materials/VictorianPicture05_Mat.mat
-  artifactKey: Guid(18af9944f04207749bb6d244c5c4d177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/AssetPacks/VictorianModelsPack/Materials/VictorianPicture05_Mat.mat using Guid(18af9944f04207749bb6d244c5c4d177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '164759a3add51e5672cb7a35f9933418') in 0.017948 seconds 
-  Import took 0.021195 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000133 seconds.
-  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/AssetPacks/VictorianModelsPack/Materials/VictorianPicture02_Mat.mat
-  artifactKey: Guid(73f6ec29b4661c54da623fc5c552674e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/AssetPacks/VictorianModelsPack/Materials/VictorianPicture02_Mat.mat using Guid(73f6ec29b4661c54da623fc5c552674e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a46201793596a02589206a67c9724aef') in 0.012255 seconds 
-  Import took 0.015467 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/AssetPacks/VictorianModelsPack/Materials/VictorianChandelierChain_Mat.mat
-  artifactKey: Guid(46b1e0d23e23db4449bf42252c271a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/AssetPacks/VictorianModelsPack/Materials/VictorianChandelierChain_Mat.mat using Guid(46b1e0d23e23db4449bf42252c271a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9e878c244788fdac50c213fb4c06537') in 0.015778 seconds 
-  Import took 0.019391 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/AssetPacks/VictorianModelsPack/Materials/VictorianWallLight_Mat.mat
-  artifactKey: Guid(5da3ef45f28b2ee45bce434ff6370d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/AssetPacks/VictorianModelsPack/Materials/VictorianWallLight_Mat.mat using Guid(5da3ef45f28b2ee45bce434ff6370d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df11552591d6e5705eda9fcd1d4b8081') in 0.012718 seconds 
-  Import took 0.016158 seconds .
+  path: Assets/Scenes/scenario.unity
+  artifactKey: Guid(a3848dce9a6f5b4429a3f9e7e169d919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scenario.unity using Guid(a3848dce9a6f5b4429a3f9e7e169d919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ff525e0b29e1c32bf65ca81c023d06a') in 0.013940 seconds 
+  Import took 0.017781 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
