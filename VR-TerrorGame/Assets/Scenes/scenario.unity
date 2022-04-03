@@ -590,7 +590,7 @@ PrefabInstance:
     - target: {fileID: 658378761066215795, guid: 9f256dcdfd91e854ab8e4a9f62248d1e,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 658378761066215795, guid: 9f256dcdfd91e854ab8e4a9f62248d1e,
         type: 3}
@@ -3478,7 +3478,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d43e8f8ce09d86e40b22ddb81175a661, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -23.801899
+      value: -26.087
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d43e8f8ce09d86e40b22ddb81175a661, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3486,7 +3486,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d43e8f8ce09d86e40b22ddb81175a661, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 42.377426
+      value: 39.389
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d43e8f8ce09d86e40b22ddb81175a661, type: 3}
       propertyPath: m_LocalRotation.w
@@ -9399,7 +9399,7 @@ Transform:
   - {fileID: 875171882}
   - {fileID: 848423099}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &867545868
 PrefabInstance:
@@ -9650,7 +9650,7 @@ Transform:
   m_Children:
   - {fileID: 1594278166}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &925860366
 GameObject:
@@ -11820,7 +11820,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dynamicType: 0
-  useType: 0
+  useType: 1
   interactType: 1
   keyType: 1
   m_Animation: {fileID: 1079096834}
@@ -11834,7 +11834,7 @@ MonoBehaviour:
       m_Calls: []
   customText: The door is locked, I need to find the key.
   customTextKey: 
-  keyID: 33
+  keyID: 34
   useAnim: Door_Open
   backUseAnim: Door_Close
   mouseInput: 0
@@ -17031,7 +17031,7 @@ Transform:
   m_Children:
   - {fileID: 275207903}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1609500055
 GameObject:
@@ -17980,6 +17980,63 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1710013925}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1713569440
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1597019828895162, guid: 7f0910e4bfb4eb442a80c6d599d471fd, type: 3}
+      propertyPath: m_Name
+      value: I_Key04
+      objectReference: {fileID: 0}
+    - target: {fileID: 4356963251307054, guid: 7f0910e4bfb4eb442a80c6d599d471fd, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4356963251307054, guid: 7f0910e4bfb4eb442a80c6d599d471fd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 14.363
+      objectReference: {fileID: 0}
+    - target: {fileID: 4356963251307054, guid: 7f0910e4bfb4eb442a80c6d599d471fd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.478
+      objectReference: {fileID: 0}
+    - target: {fileID: 4356963251307054, guid: 7f0910e4bfb4eb442a80c6d599d471fd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 236.545
+      objectReference: {fileID: 0}
+    - target: {fileID: 4356963251307054, guid: 7f0910e4bfb4eb442a80c6d599d471fd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4356963251307054, guid: 7f0910e4bfb4eb442a80c6d599d471fd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4356963251307054, guid: 7f0910e4bfb4eb442a80c6d599d471fd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4356963251307054, guid: 7f0910e4bfb4eb442a80c6d599d471fd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4356963251307054, guid: 7f0910e4bfb4eb442a80c6d599d471fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 4356963251307054, guid: 7f0910e4bfb4eb442a80c6d599d471fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4356963251307054, guid: 7f0910e4bfb4eb442a80c6d599d471fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7f0910e4bfb4eb442a80c6d599d471fd, type: 3}
 --- !u!1001 &1718958790
 PrefabInstance:
   m_ObjectHideFlags: 0

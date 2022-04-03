@@ -1,0 +1,656 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.28f1 (f5400f52e03f) revision 16072719'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Core' Language: 'es' Physical Memory: 32584 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.28f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/anton/Documents/VR-Terror/VR-TerrorGame
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60444
+Successfully changed project path to: C:/Users/anton/Documents/VR-Terror/VR-TerrorGame
+C:/Users/anton/Documents/VR-Terror/VR-TerrorGame
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 144.84 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 1.54 ms.
+Initialize engine version: 2020.3.28f1 (f5400f52e03f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/anton/Documents/VR-Terror/VR-TerrorGame/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 (ID=0x1f14)
+    Vendor:   
+    VRAM:     8031 MB
+    Driver:   30.0.14.7141
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56348
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002188 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 84.32 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.18 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.616 seconds
+Domain Reload Profiling:
+	ReloadAssembly (616ms)
+		BeginReloadAssembly (58ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (491ms)
+			LoadAssemblies (56ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (164ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (202ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (85ms)
+				BeforeProcessingInitializeOnLoad (11ms)
+				ProcessInitializeOnLoadAttributes (76ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009776 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 84.42 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\anton\Documents\VR-Terror\VR-TerrorGame\Library\PackageCache\com.unity.xr.oculus@1.11.2\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\anton\Documents\VR-Terror\VR-TerrorGame\Library\PackageCache\com.unity.xr.oculus@1.11.2\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <af1a2f671a98418f910899d70a717c00>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.189 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1190ms)
+		BeginReloadAssembly (142ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (990ms)
+			LoadAssemblies (94ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (305ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (415ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (85ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (224ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.99 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+Unloading 2776 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 140.6 MB.
+System memory in use after: 140.8 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3227.
+Total: 2.792100 ms (FindLiveObjects: 0.209100 ms CreateObjectMapping: 0.143400 ms MarkObjects: 2.365200 ms  DeleteObjects: 0.073700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/InteractiveLocks_Pack/KeypadLock/KeypadLock.fbx
+  artifactKey: Guid(3234dc1d17ecb8d4a9c86cd850fd05ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/InteractiveLocks_Pack/KeypadLock/KeypadLock.fbx using Guid(3234dc1d17ecb8d4a9c86cd850fd05ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1db1774f82bf0e8f467fdbd9396d65e4') in 0.281439 seconds 
+  Import took 0.286773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Sounds/Interact/Pickup/key.ogg
+  artifactKey: Guid(c70debea24e9dc54cb50997d2affd2c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Sounds/Interact/Pickup/key.ogg using Guid(c70debea24e9dc54cb50997d2affd2c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee32286032969bc75c5d9c0e26d528a8') in 0.076806 seconds 
+  Import took 0.080935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/Keys_Pack/Key02.FBX
+  artifactKey: Guid(edcb91ff4fef6664e88c3fae2b29731a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/Keys_Pack/Key02.FBX using Guid(edcb91ff4fef6664e88c3fae2b29731a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64896229326c31110dbfab24efd44071') in 0.070652 seconds 
+  Import took 0.075411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/Keys_Pack/Key03.FBX
+  artifactKey: Guid(38973bf5714df794fb08b30cc6a3583a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/Keys_Pack/Key03.FBX using Guid(38973bf5714df794fb08b30cc6a3583a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9021045b540c8e3a3f0ed294ead1c8c5') in 0.074204 seconds 
+  Import took 0.080033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/Keys_Pack/KeyHouse.fbx
+  artifactKey: Guid(313562ce783013340afd3e3bc331d82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/Keys_Pack/KeyHouse.fbx using Guid(313562ce783013340afd3e3bc331d82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ad1b1eabc053ded45846c987e1bc135') in 0.032650 seconds 
+  Import took 0.037602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/Keys_Pack/Key01.FBX
+  artifactKey: Guid(5c1edb7a6b7a8b74a991a2ac162b1af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/Keys_Pack/Key01.FBX using Guid(5c1edb7a6b7a8b74a991a2ac162b1af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '318b39cc6c7284730639af1a6862b713') in 0.033370 seconds 
+  Import took 0.037861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.228932 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/InteractiveLocks_Pack/KeycardLock/KeycardLock.fbx
+  artifactKey: Guid(e7df73e89a0038d409ef75fb12755790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/InteractiveLocks_Pack/KeycardLock/KeycardLock.fbx using Guid(e7df73e89a0038d409ef75fb12755790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '832f42516f124b7c2cfea110c40eabd9') in 0.032873 seconds 
+  Import took 0.040849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/InteractiveLocks_Pack/KeypadLock/Textures/Keypad_Albedo.png
+  artifactKey: Guid(f0ff333d2057da44eaec57e16512e184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/InteractiveLocks_Pack/KeypadLock/Textures/Keypad_Albedo.png using Guid(f0ff333d2057da44eaec57e16512e184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8b7da6346591ac9078a4828c0fcdd33') in 0.029333 seconds 
+  Import took 0.036638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/InteractiveLocks_Pack/KeypadLock/Textures/Keypad_AO.png
+  artifactKey: Guid(9a5e22a4135a9a547af971ab2b7e46df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/InteractiveLocks_Pack/KeypadLock/Textures/Keypad_AO.png using Guid(9a5e22a4135a9a547af971ab2b7e46df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93834f0c25ee8b53d3a3aeff75628c49') in 0.019932 seconds 
+  Import took 0.027745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/InteractiveLocks_Pack/KeypadLock/Textures/Keypad_Normal.png
+  artifactKey: Guid(adab19fef695f2142b9844a640fa9f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/InteractiveLocks_Pack/KeypadLock/Textures/Keypad_Normal.png using Guid(adab19fef695f2142b9844a640fa9f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a39829c79cb9eeb435c19cfc77abcf19') in 0.035287 seconds 
+  Import took 0.043687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/Keys_Pack/Textures/KeyMetal.png
+  artifactKey: Guid(92cda5e5be0c4b14c851d44f8e0deb62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/Keys_Pack/Textures/KeyMetal.png using Guid(92cda5e5be0c4b14c851d44f8e0deb62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1fe64e82be683b60e0b26bf2e6e6dfe') in 0.021238 seconds 
+  Import took 0.030759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/InteractiveLocks_Pack/KeypadLock/Textures/Keypad_Height.png
+  artifactKey: Guid(89a41ca0a7cd10d49aa8badb724fe1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/InteractiveLocks_Pack/KeypadLock/Textures/Keypad_Height.png using Guid(89a41ca0a7cd10d49aa8badb724fe1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e864b204a17d3bf2bfa50a04a5b8f985') in 0.019699 seconds 
+  Import took 0.025775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/InteractiveLocks_Pack/KeypadLock/Textures/Keypad_LED_Red.png
+  artifactKey: Guid(0dc6dc48d221a1647b3364ce216a0823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/InteractiveLocks_Pack/KeypadLock/Textures/Keypad_LED_Red.png using Guid(0dc6dc48d221a1647b3364ce216a0823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c87553603f2eaad74e37edf47d35641b') in 0.015342 seconds 
+  Import took 0.021863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/InteractiveLocks_Pack/KeycardLock/Materials/KeycardLock_Material.mat
+  artifactKey: Guid(8348770cfeec42e4ea5469d235136499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/InteractiveLocks_Pack/KeycardLock/Materials/KeycardLock_Material.mat using Guid(8348770cfeec42e4ea5469d235136499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02e37825a634e219d4c90f00a13ca40c') in 0.049419 seconds 
+  Import took 0.054497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/InteractiveLocks_Pack/KeypadLock/Materials/Keypad_LedGreenOn.mat
+  artifactKey: Guid(2a92ae03665fbaa4894ead12ab7abd08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/InteractiveLocks_Pack/KeypadLock/Materials/Keypad_LedGreenOn.mat using Guid(2a92ae03665fbaa4894ead12ab7abd08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eba8fdf49a515b9a64fb72dec43a2212') in 0.039574 seconds 
+  Import took 0.045640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/InteractiveLocks_Pack/KeypadLock/Textures/Keypad_LED_Green.png
+  artifactKey: Guid(1e77058f26c57c34580aad06ae562dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/InteractiveLocks_Pack/KeypadLock/Textures/Keypad_LED_Green.png using Guid(1e77058f26c57c34580aad06ae562dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df50c81ba683b557e78bd0bcce48b7d6') in 0.014787 seconds 
+  Import took 0.019980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/InteractiveLocks_Pack/KeypadLock/Materials/Keypad_LedRedOn.mat
+  artifactKey: Guid(7e701ca249685f443a55bbd2d385caa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/InteractiveLocks_Pack/KeypadLock/Materials/Keypad_LedRedOn.mat using Guid(7e701ca249685f443a55bbd2d385caa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a77b135d4097dd080b61c6eeda25458c') in 0.029855 seconds 
+  Import took 0.037051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/Keys_Pack/Materials/MI_Keys.mat
+  artifactKey: Guid(53ccff9faa8b49c42a0a5fbf293dd732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/Keys_Pack/Materials/MI_Keys.mat using Guid(53ccff9faa8b49c42a0a5fbf293dd732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4fdd0fe8b9027db91050b4352c6386e') in 0.022171 seconds 
+  Import took 0.027998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/InteractiveLocks_Pack/KeypadLock/Materials/Keypad.mat
+  artifactKey: Guid(8a80ca1a2f32d8c4da0e47f111c4664e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/InteractiveLocks_Pack/KeypadLock/Materials/Keypad.mat using Guid(8a80ca1a2f32d8c4da0e47f111c4664e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba7822bab25a68bda61c191da06a9e79') in 0.027716 seconds 
+  Import took 0.033598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/InteractiveLocks_Pack/KeypadLock/Textures/Keypad_Specular.png
+  artifactKey: Guid(68d0279b61b509a439bd39dfdd997dcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/InteractiveLocks_Pack/KeypadLock/Textures/Keypad_Specular.png using Guid(68d0279b61b509a439bd39dfdd997dcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ee2914294f185c9ee93ccc97c0ab6e4') in 0.016637 seconds 
+  Import took 0.022187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/Keys_Pack/Textures/T_Keys_Albedo.png
+  artifactKey: Guid(4248b824624f55149a46d8d394edbccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/Keys_Pack/Textures/T_Keys_Albedo.png using Guid(4248b824624f55149a46d8d394edbccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f461d88fd4490b3e64d888db4e37d093') in 0.016904 seconds 
+  Import took 0.022821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/Keys_Pack/Materials/KeyHouse.mat
+  artifactKey: Guid(d19693dce7f27ff4fa35a03de39b1930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/Keys_Pack/Materials/KeyHouse.mat using Guid(d19693dce7f27ff4fa35a03de39b1930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73993208fe8375bbc0e199374ae1661b') in 0.014593 seconds 
+  Import took 0.020622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/Keys_Pack/Textures/T_Keys_Normal.png
+  artifactKey: Guid(ee456d38ccdba70458a406ed70ef4cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/Keys_Pack/Textures/T_Keys_Normal.png using Guid(ee456d38ccdba70458a406ed70ef4cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beab05cc42501234bb9962bfae2e62ad') in 0.018363 seconds 
+  Import took 0.024109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.174145 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Sounds/Interact/Door/Close/DoorBathroom_Close.ogg
+  artifactKey: Guid(84792df24218e9244907f1ad268b5d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Sounds/Interact/Door/Close/DoorBathroom_Close.ogg using Guid(84792df24218e9244907f1ad268b5d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8237511f743a89634b9d088a5dff8b69') in 0.016758 seconds 
+  Import took 0.021649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Sounds/Interact/Door/Open/DoorBathroom_Open.ogg
+  artifactKey: Guid(6206a545d6f831440a19cdd4e11a6f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Sounds/Interact/Door/Open/DoorBathroom_Open.ogg using Guid(6206a545d6f831440a19cdd4e11a6f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d953395a98599721e0280215526cedb') in 0.017338 seconds 
+  Import took 0.022324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Sounds/Ambience/Horror Ambience - Room 01.ogg
+  artifactKey: Guid(d2dabc535e97e8b49813e805c15c2087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Sounds/Ambience/Horror Ambience - Room 01.ogg using Guid(d2dabc535e97e8b49813e805c15c2087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4241db7363fa78f82eb68795c5f6173b') in 0.026621 seconds 
+  Import took 0.032377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Sounds/Ambience/Horror Ambience - Room 02.ogg
+  artifactKey: Guid(39e47640281dce4429fb4f821de7ed36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Sounds/Ambience/Horror Ambience - Room 02.ogg using Guid(39e47640281dce4429fb4f821de7ed36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcee54535fd8f9eed429c92aede403b6') in 0.016160 seconds 
+  Import took 0.021826 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009572 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\anton\Documents\VR-Terror\VR-TerrorGame\Library\PackageCache\com.unity.xr.oculus@1.11.2\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\anton\Documents\VR-Terror\VR-TerrorGame\Library\PackageCache\com.unity.xr.oculus@1.11.2\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <af1a2f671a98418f910899d70a717c00>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.024 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1025ms)
+		BeginReloadAssembly (112ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (854ms)
+			LoadAssemblies (92ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (301ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (320ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (206ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.09 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+Unloading 2637 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.1 MB.
+System memory in use after: 133.3 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3279.
+Total: 2.825200 ms (FindLiveObjects: 0.231800 ms CreateObjectMapping: 0.157100 ms MarkObjects: 2.417700 ms  DeleteObjects: 0.017800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 25.755261 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Textures/UI/GameUI/Inventory/Items/Other/Keys
+  artifactKey: Guid(1f7d398b30fd392499c44f387c91684d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Textures/UI/GameUI/Inventory/Items/Other/Keys using Guid(1f7d398b30fd392499c44f387c91684d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d37f9e79848dfc01c20bb3346fd1cb4') in 0.009857 seconds 
+  Import took 0.015747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.406208 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_Keyboard.png
+  artifactKey: Guid(83382fb171da648c594229ca6fa7ad94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_Keyboard.png using Guid(83382fb171da648c594229ca6fa7ad94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9906c4a1b5e2dac37558e897a6721f74') in 0.045937 seconds 
+  Import took 0.051047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Keyboard@3x.png
+  artifactKey: Guid(6191a40940a3e46899ecf82fa8389d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Keyboard@3x.png using Guid(6191a40940a3e46899ecf82fa8389d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f31bc725b2262e5bdfb4fba206d3bed6') in 0.035289 seconds 
+  Import took 0.039907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Keyboard.png
+  artifactKey: Guid(5a5b9538c3aaa4587856e68a93a92a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Keyboard.png using Guid(5a5b9538c3aaa4587856e68a93a92a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5fd1d8f32a9e648eb85b1331bab4e54') in 0.036344 seconds 
+  Import took 0.040981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Keyboard@4x.png
+  artifactKey: Guid(7fc0926499f7a4500b152d45397c44a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Keyboard@4x.png using Guid(7fc0926499f7a4500b152d45397c44a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2c3e8db018d8adfb8bebac6d8e7c0a4') in 0.036492 seconds 
+  Import took 0.041854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_Keyboard@3x.png
+  artifactKey: Guid(9ec4e316700da46b88741a8153b33963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_Keyboard@3x.png using Guid(9ec4e316700da46b88741a8153b33963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca1f71102d75044bf7f507828c58d16b') in 0.035841 seconds 
+  Import took 0.041243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_Keyboard@4x.png
+  artifactKey: Guid(123b6218ad27a41af933311ee524dcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_Keyboard@4x.png using Guid(123b6218ad27a41af933311ee524dcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae516db517e5f9ea769f2de8f76b72e7') in 0.019514 seconds 
+  Import took 0.024911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Keyboard@2x.png
+  artifactKey: Guid(87ae93efe5d3b4262995b0acdc987d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Keyboard@2x.png using Guid(87ae93efe5d3b4262995b0acdc987d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0541f98ee35de888cf89449fb5facfc9') in 0.018084 seconds 
+  Import took 0.023143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_Keyboard@2x.png
+  artifactKey: Guid(f14e3a4027f834f16b235498ac15bb3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_Keyboard@2x.png using Guid(f14e3a4027f834f16b235498ac15bb3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69cda12c0360628d9edd87680d9a54fc') in 0.017361 seconds 
+  Import took 0.022640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.567036 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Textures/UI/GameUI/Inventory/Items/Other/12Gauge.png
+  artifactKey: Guid(1d0a5193cef423544936d63d6cdaad00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Textures/UI/GameUI/Inventory/Items/Other/12Gauge.png using Guid(1d0a5193cef423544936d63d6cdaad00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28c99509d31fcb4ae7427e85dcbe7535') in 0.029261 seconds 
+  Import took 0.034616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Textures/UI/GameUI/Inventory/Items/Other/Petrol Oil.png
+  artifactKey: Guid(423fc31c2ec97ff4aa37dbcc4e767617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Textures/UI/GameUI/Inventory/Items/Other/Petrol Oil.png using Guid(423fc31c2ec97ff4aa37dbcc4e767617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf5d5a5286dbce28634823d13792f661') in 0.016792 seconds 
+  Import took 0.020989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Textures/UI/GameUI/Inventory/Items/Other/PistolBullets.png
+  artifactKey: Guid(83ae4c4daf4be4c4f86efb3d1b48a54e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Textures/UI/GameUI/Inventory/Items/Other/PistolBullets.png using Guid(83ae4c4daf4be4c4f86efb3d1b48a54e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7e484ba39fbb505cdd41d0722c950a7') in 0.017726 seconds 
+  Import took 0.022434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Textures/UI/GameUI/Inventory/Items/Other/vhs_icon.png
+  artifactKey: Guid(67d062eaf10a7884696b8bd87813bd83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Textures/UI/GameUI/Inventory/Items/Other/vhs_icon.png using Guid(67d062eaf10a7884696b8bd87813bd83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '515bd9a6f6bbd068a2f36e67aeb23442') in 0.016853 seconds 
+  Import took 0.021768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Textures/UI/GameUI/Inventory/Items/Other/Empty_Syringe.png
+  artifactKey: Guid(0b7ae86e598278645ba619ac8e23af17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Textures/UI/GameUI/Inventory/Items/Other/Empty_Syringe.png using Guid(0b7ae86e598278645ba619ac8e23af17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3853fe6fa0bb8162cf246ca258c88dd2') in 0.016219 seconds 
+  Import took 0.020838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Textures/UI/GameUI/Inventory/Items/Other/Battery.png
+  artifactKey: Guid(a028ee9891e4b254d9e090abc60c8945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Textures/UI/GameUI/Inventory/Items/Other/Battery.png using Guid(a028ee9891e4b254d9e090abc60c8945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cb504c3a87d853690453f3a6c833bf3') in 0.019670 seconds 
+  Import took 0.024820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Textures/UI/GameUI/Inventory/Items/Other/Bullets_9mm.png
+  artifactKey: Guid(d6f369155d47e7c49ab5f5a364c6d8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Textures/UI/GameUI/Inventory/Items/Other/Bullets_9mm.png using Guid(d6f369155d47e7c49ab5f5a364c6d8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38d80bb67bc9c7b9dd0f6d43ff04fc58') in 0.024260 seconds 
+  Import took 0.029396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Textures/UI/GameUI/Inventory/Items/Other/Zippo.png
+  artifactKey: Guid(3abfb1af10f6bd142a2172ecf3aa6459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Textures/UI/GameUI/Inventory/Items/Other/Zippo.png using Guid(3abfb1af10f6bd142a2172ecf3aa6459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01bd4199e57a24fc01959342624e7c2a') in 0.024761 seconds 
+  Import took 0.029650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.115911 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Interactive/Locks
+  artifactKey: Guid(24547f55fdbec724e82b47351fff3ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Interactive/Locks using Guid(24547f55fdbec724e82b47351fff3ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d358e09d65e0c553242363f00f36d6c') in 0.008419 seconds 
+  Import took 0.013612 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009254 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 3.75 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.23 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\anton\Documents\VR-Terror\VR-TerrorGame\Library\PackageCache\com.unity.xr.oculus@1.11.2\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\anton\Documents\VR-Terror\VR-TerrorGame\Library\PackageCache\com.unity.xr.oculus@1.11.2\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <af1a2f671a98418f910899d70a717c00>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.271 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1272ms)
+		BeginReloadAssembly (134ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (1065ms)
+			LoadAssemblies (120ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (367ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (414ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (114ms)
+				ProcessInitializeOnLoadAttributes (256ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.11 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.15 ms.
+Unloading 2637 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.1 MB.
+System memory in use after: 133.4 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3287.
+Total: 3.591100 ms (FindLiveObjects: 0.246000 ms CreateObjectMapping: 0.227600 ms MarkObjects: 3.088600 ms  DeleteObjects: 0.028000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
