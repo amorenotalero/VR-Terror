@@ -57,6 +57,7 @@ namespace HFPS.Systems
                 {
                     LampIndicator.GetComponent<MeshRenderer>().material.SetColor("_EmissionColor", new Color(1f, 1f, 1f));
                     LampIndicator.GetComponentInChildren<Light>().enabled = true;
+                    
                 }
                 else
                 {

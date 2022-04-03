@@ -29,7 +29,7 @@ namespace HFPS.Systems
         public enum MessageType { None, PickupHint, Message, ItemName }
         public enum DisableType { None, DisableRenderer, DisableObject, Destroy }
         #endregion
-
+        public bool itemTaken = false;
         public ItemData itemData;
         public string itemTitle;
 
@@ -264,6 +264,7 @@ namespace HFPS.Systems
                 audioSource.clip = pickupSound;
                 audioSource.volume = pickupVolume;
                 audioSource.Play();
+                itemTaken = true;
             }
 
             if (GetComponent<ItemEvent>())
