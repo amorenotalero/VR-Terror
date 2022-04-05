@@ -23,7 +23,6 @@ namespace HFPS.Systems
 
         [SaveableField]
         public bool isPoweredOn = true;
-
 #if TW_LOCALIZATION_PRESENT
         void OnEnable()
         {

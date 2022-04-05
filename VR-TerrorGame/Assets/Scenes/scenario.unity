@@ -4699,6 +4699,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 423334015}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &428165796 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 966751706044016463, guid: 5f84432c310c8c44281056d288fc28cd,
+    type: 3}
+  m_PrefabInstance: {fileID: 790056116}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebeea973c9b1c584e967067915b4c2e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &437678056
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8532,6 +8544,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ElectricBox
+      objectReference: {fileID: 0}
+    - target: {fileID: 935026913546610447, guid: 5f84432c310c8c44281056d288fc28cd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 935333157481168887, guid: 5f84432c310c8c44281056d288fc28cd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 935515371614934641, guid: 5f84432c310c8c44281056d288fc28cd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f84432c310c8c44281056d288fc28cd, type: 3}
@@ -17426,7 +17453,7 @@ MonoBehaviour:
   linterna: {fileID: 1592262940}
   llave: {fileID: 1362703011}
   lightTrigger: {fileID: 875171883}
-  electricity: {fileID: 790056117}
+  electricitySwither: {fileID: 428165796}
   fileExporter: {fileID: 1643087334}
 --- !u!1 &1658264326
 GameObject:

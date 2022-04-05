@@ -265,6 +265,7 @@ namespace HFPS.Systems
                 audioSource.volume = pickupVolume;
                 audioSource.Play();
                 itemTaken = true;
+                //Debug.Log(itemTaken);
             }
 
             if (GetComponent<ItemEvent>())
