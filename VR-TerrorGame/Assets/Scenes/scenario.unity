@@ -8535,6 +8535,7 @@ Transform:
   m_LocalScale: {x: 1.1999999, y: 1, z: 1}
   m_Children:
   - {fileID: 1079096830}
+  - {fileID: 1504895980}
   m_Father: {fileID: 2037778618}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -90.00001, y: 90, z: -180.00002}
@@ -12174,7 +12175,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1079096830
 Transform:
   m_ObjectHideFlags: 0
@@ -16315,6 +16316,187 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1495146945}
   m_Mesh: {fileID: 4300000, guid: 0621d135302d1fb468f206b1866f98eb, type: 3}
+--- !u!1 &1504895979
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1504895980}
+  - component: {fileID: 1504895985}
+  - component: {fileID: 1504895984}
+  - component: {fileID: 1504895983}
+  - component: {fileID: 1504895982}
+  - component: {fileID: 1504895981}
+  m_Layer: 9
+  m_Name: DoorHouse (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1504895980
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1504895979}
+  m_LocalRotation: {x: -0.00024670362, y: -0.0002468523, z: -0.707105, w: 0.70710856}
+  m_LocalPosition: {x: -0.04167287, y: -1.7000115, z: 0.0010000467}
+  m_LocalScale: {x: 2.1500046, y: 1.7916688, z: 2.2000017}
+  m_Children: []
+  m_Father: {fileID: 781851015}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -179.96, y: 180, z: -270}
+--- !u!114 &1504895981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1504895979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebeea973c9b1c584e967067915b4c2e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dynamicType: 0
+  useType: 0
+  interactType: 1
+  keyType: 1
+  m_Animation: {fileID: 1504895982}
+  IgnoreColliders:
+  - {fileID: 781851016}
+  InteractEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  DisabledEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  customText: The door is locked, I need to find the key.
+  customTextKey: 
+  keyID: 34
+  useAnim: Door_Open
+  backUseAnim: Door_Close
+  mouseInput: 0
+  mouseSmoothing: 0
+  useJammedPlanks: 0
+  Planks: []
+  knobAnim: 
+  useSR: 0
+  startingRotation: {x: 0, y: 0, z: 0}
+  isOpened: 0
+  toPlayerAngle: 0
+  moveWithX: 0
+  reverseMove: 0
+  drawerDragSounds: 0
+  InteractPos: 0
+  drawerDragPlay: 0.2
+  minMaxMove: {x: 0, y: 0}
+  stopAngle: 0
+  lockOnUp: 0
+  isUp: 0
+  valveTurnSounds: []
+  valveSoundAfter: 0
+  valveTurnSpeed: 0
+  valveTurnTime: 0
+  turnAxis: 0
+  m_Volume: 1
+  Open: {fileID: 8300000, guid: 61afa4e1187416f4f9b292e779abcf13, type: 3}
+  Close: {fileID: 8300000, guid: effd4f93dc055d24d8f4406aed266ea5, type: 3}
+  LockedTry: {fileID: 8300000, guid: 676f700ed81dff44c8c3d972d06e96c8, type: 3}
+  UnlockSound: {fileID: 8300000, guid: 1d63549f07ace344e956be9da49b7ef4, type: 3}
+  LeverUpSound: {fileID: 0}
+  DebugAngle: 0
+  rotateValue: 0
+  isHolding: 0
+  Hold: 0
+  hasKey: 0
+  isLocked: 0
+  isInvoked: 0
+  Angle: 0
+--- !u!111 &1504895982
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1504895979}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 7400000, guid: f8d00b8c183945a4abd33ea509584f21, type: 2}
+  - {fileID: 7400000, guid: 982f57a1917c32b45b5c6b561b551f3b, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!65 &1504895983
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1504895979}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.74601096, y: 0.037872586, z: 1.3083442}
+  m_Center: {x: -0.3730055, y: 0.0006259167, z: 0.6541721}
+--- !u!23 &1504895984
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1504895979}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 4294967295
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 52fcedb5f7430d34bafdf29a3a1e8ddc, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1504895985
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1504895979}
+  m_Mesh: {fileID: 4300000, guid: 62cff1c043b25e0418f99e7e36fa72f8, type: 3}
 --- !u!1001 &1516421548
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16672,6 +16854,30 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 864505428}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1504895979}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1079096829}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -20889,6 +21095,7 @@ GameObject:
   - component: {fileID: 2025131222}
   - component: {fileID: 2025131224}
   - component: {fileID: 2025131223}
+  - component: {fileID: 2025131225}
   m_Layer: 0
   m_Name: '2-IR AL COMEDOR '
   m_TagString: Untagged
@@ -20942,6 +21149,34 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 2.4553812, z: 3.9992828}
   m_Center: {x: 0, y: 0.7276906, z: 0.23027802}
+--- !u!114 &2025131225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2025131221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13cf45ca47a068c419ba3d1bb8a728f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EventID: 0
+  CompleteEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1079096833}
+        m_TargetAssemblyTypeName: HFPS.Systems.DynamicObject, Assembly-CSharp
+        m_MethodName: UnlockDoor
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1001 &2030925163
 PrefabInstance:
   m_ObjectHideFlags: 0
