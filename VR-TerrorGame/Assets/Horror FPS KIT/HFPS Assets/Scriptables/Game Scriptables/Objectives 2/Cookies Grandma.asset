@@ -13,22 +13,46 @@ MonoBehaviour:
   m_Name: Cookies Grandma
   m_EditorClassIdentifier: 
   Objectives:
-  - shortName: Encuentra las galletas
+  - shortName: "Ve al sal\xF3n "
     eventID: 
-    objectiveText: Encunetra las galletas que te ha hecho tu abuela
+    objectiveText: "Ve al sal\xF3n "
     completeCount: 0
     objectiveID: 0
     localeKey: 
-  - shortName: Encuentra una manera de ver
+  - shortName: 'Ve al comedor '
     eventID: 
-    objectiveText: Encuentra en el salon una linterna para salir
+    objectiveText: "Comprueba el sal\xF3n y cuando estes listo ve al comedor "
     completeCount: 0
     objectiveID: 1
     localeKey: 
-  - shortName: Ve al cuadro de mandos
+  - shortName: "Ve al ba\xF1o "
     eventID: 
-    objectiveText: Ve hacia el cuadro de mandos y reactiva las luces
+    objectiveText: "Comprueba el comedor y ve al ba\xF1o "
     completeCount: 0
     objectiveID: 2
+    localeKey: 
+  - shortName: Ve a la cocina
+    eventID: 
+    objectiveText: "Comprueba el ba\xF1o y ve a la cocina"
+    completeCount: 0
+    objectiveID: 3
+    localeKey: 
+  - shortName: 'Ve al dormitorio '
+    eventID: 
+    objectiveText: 'Comprueba la cocina y ve al dormitorio de tu abuela '
+    completeCount: 0
+    objectiveID: 4
+    localeKey: 
+  - shortName: Dormitorio
+    eventID: 
+    objectiveText: 'Explora el dormitorio y vuelve a la entrada cuando estes listo '
+    completeCount: 0
+    objectiveID: 5
+    localeKey: 
+  - shortName: Luces
+    eventID: 
+    objectiveText: Encuentra algo para encender la luz
+    completeCount: 0
+    objectiveID: 6
     localeKey: 
   enableLocalization: 0

@@ -1,0 +1,1566 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.28f1 (f5400f52e03f) revision 16072719'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'es' Physical Memory: 32684 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.28f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Usuario/Desktop/PROYECTOS/VR-Terror/VR-TerrorGame
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64103
+Successfully changed project path to: C:/Users/Usuario/Desktop/PROYECTOS/VR-Terror/VR-TerrorGame
+C:/Users/Usuario/Desktop/PROYECTOS/VR-Terror/VR-TerrorGame
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 94.16 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 4.72 ms.
+Initialize engine version: 2020.3.28f1 (f5400f52e03f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Usuario/Desktop/PROYECTOS/VR-Terror/VR-TerrorGame/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
+    Vendor:   
+    VRAM:     8043 MB
+    Driver:   27.21.14.6172
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56228
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002222 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 82.44 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.566 seconds
+Domain Reload Profiling:
+	ReloadAssembly (567ms)
+		BeginReloadAssembly (57ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (439ms)
+			LoadAssemblies (55ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (127ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (199ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (83ms)
+				BeforeProcessingInitializeOnLoad (14ms)
+				ProcessInitializeOnLoadAttributes (76ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.013952 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 86.28 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.17 ms.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Usuario\Desktop\PROYECTOS\VR-Terror\VR-TerrorGame\Library\PackageCache\com.unity.xr.oculus@1.11.2\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Usuario\Desktop\PROYECTOS\VR-Terror\VR-TerrorGame\Library\PackageCache\com.unity.xr.oculus@1.11.2\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <af1a2f671a98418f910899d70a717c00>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.155 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1156ms)
+		BeginReloadAssembly (143ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (948ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (278ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (419ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (87ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (207ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.14 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+Unloading 2778 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.1 MB.
+System memory in use after: 134.3 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3223.
+Total: 3.251000 ms (FindLiveObjects: 0.225400 ms CreateObjectMapping: 0.068500 ms MarkObjects: 2.882600 ms  DeleteObjects: 0.073900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Horror FPS KIT/HFPS Assets/Scriptables/Game Scriptables/Objectives 2/Cookies Grandma.asset
+  artifactKey: Guid(2f071b51d34e2ef4ab44bb6cf2ef26c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Scriptables/Game Scriptables/Objectives 2/Cookies Grandma.asset using Guid(2f071b51d34e2ef4ab44bb6cf2ef26c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d3fe2c75a18097f8daa0b6904a9519f') in 0.033073 seconds 
+  Import took 0.037005 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012318 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.15 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Usuario\Desktop\PROYECTOS\VR-Terror\VR-TerrorGame\Library\PackageCache\com.unity.xr.oculus@1.11.2\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Usuario\Desktop\PROYECTOS\VR-Terror\VR-TerrorGame\Library\PackageCache\com.unity.xr.oculus@1.11.2\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <af1a2f671a98418f910899d70a717c00>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.917 seconds
+Domain Reload Profiling:
+	ReloadAssembly (917ms)
+		BeginReloadAssembly (104ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (754ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (269ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (280ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (180ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.13 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.15 ms.
+Unloading 2639 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.1 MB.
+System memory in use after: 123.3 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3226.
+Total: 3.142900 ms (FindLiveObjects: 0.238700 ms CreateObjectMapping: 0.078900 ms MarkObjects: 2.799300 ms  DeleteObjects: 0.025200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011868 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.26 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.17 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Usuario\Desktop\PROYECTOS\VR-Terror\VR-TerrorGame\Library\PackageCache\com.unity.xr.oculus@1.11.2\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Usuario\Desktop\PROYECTOS\VR-Terror\VR-TerrorGame\Library\PackageCache\com.unity.xr.oculus@1.11.2\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <af1a2f671a98418f910899d70a717c00>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.920 seconds
+Domain Reload Profiling:
+	ReloadAssembly (921ms)
+		BeginReloadAssembly (106ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (757ms)
+			LoadAssemblies (92ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (262ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (286ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (183ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.15 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.15 ms.
+Unloading 2639 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.2 MB.
+System memory in use after: 123.4 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3229.
+Total: 3.251300 ms (FindLiveObjects: 0.225000 ms CreateObjectMapping: 0.067400 ms MarkObjects: 2.926800 ms  DeleteObjects: 0.031300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 697.234400 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Scriptables/Game Scriptables/Objectives 2/Cookies Grandma.asset
+  artifactKey: Guid(2f071b51d34e2ef4ab44bb6cf2ef26c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Scriptables/Game Scriptables/Objectives 2/Cookies Grandma.asset using Guid(2f071b51d34e2ef4ab44bb6cf2ef26c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef19dea7abd7d5eeff7faa80113c4d66') in 0.031127 seconds 
+  Import took 0.035440 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012025 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.22 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Usuario\Desktop\PROYECTOS\VR-Terror\VR-TerrorGame\Library\PackageCache\com.unity.xr.oculus@1.11.2\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Usuario\Desktop\PROYECTOS\VR-Terror\VR-TerrorGame\Library\PackageCache\com.unity.xr.oculus@1.11.2\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <af1a2f671a98418f910899d70a717c00>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.913 seconds
+Domain Reload Profiling:
+	ReloadAssembly (913ms)
+		BeginReloadAssembly (102ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (756ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (248ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (302ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (194ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.16 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.15 ms.
+Unloading 2639 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.2 MB.
+System memory in use after: 123.4 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3232.
+Total: 3.422300 ms (FindLiveObjects: 0.245300 ms CreateObjectMapping: 0.068200 ms MarkObjects: 3.080000 ms  DeleteObjects: 0.027800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 460.300908 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Textures/EditorIcons/ObjectiveTrigger.png
+  artifactKey: Guid(7ba3b573f8c911b49bb74f6813b197a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Textures/EditorIcons/ObjectiveTrigger.png using Guid(7ba3b573f8c911b49bb74f6813b197a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40640e8bf3afc27c882369c71395156e') in 0.097960 seconds 
+  Import took 0.102392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.972260 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Scripts/Core/Base/Triggers/Events/TriggerEvent.cs
+  artifactKey: Guid(2bfea0d280fbc694095f4bb7ed60bb0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Scripts/Core/Base/Triggers/Events/TriggerEvent.cs using Guid(2bfea0d280fbc694095f4bb7ed60bb0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82815d35a2e5a86379cdb10e98ce46d9') in 0.008336 seconds 
+  Import took 0.012418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 95.690336 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Arms/Arms_Shotgun/Shotgun_Anim.fbx
+  artifactKey: Guid(be30d0487f3d61844a590c39a749f011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Arms/Arms_Shotgun/Shotgun_Anim.fbx using Guid(be30d0487f3d61844a590c39a749f011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f75438c99dae00a6bb23ad54dddfb93') in 0.211635 seconds 
+  Import took 0.218016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Items/ShotgunAmmo/Textures/AmmoBox_MaskMap.png
+  artifactKey: Guid(5180d95519528df44984f6a717b80ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Items/ShotgunAmmo/Textures/AmmoBox_MaskMap.png using Guid(5180d95519528df44984f6a717b80ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f49b726a7993a1ac6dbd7756fd2ba550') in 0.012148 seconds 
+  Import took 0.016064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/fridge/Materials/05.jpg
+  artifactKey: Guid(839016ccef78bd34ab4ec70dc2d554e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fridge/Materials/05.jpg using Guid(839016ccef78bd34ab4ec70dc2d554e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0c365132c73c52ba5fe47719bfd42d7') in 0.024746 seconds 
+  Import took 0.028687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/HealthItems_Pack/Textures/ammobox_D.png
+  artifactKey: Guid(cd09bc8e07807ee4fa740200e87d9c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/HealthItems_Pack/Textures/ammobox_D.png using Guid(cd09bc8e07807ee4fa740200e87d9c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82c9f4f0afd7f2fe9f33254952781553') in 0.011603 seconds 
+  Import took 0.015105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Furniture/Source/Textures/3Seat_BaseColor.tga
+  artifactKey: Guid(b26ed971f51d79d4f85cb49b41444bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/Source/Textures/3Seat_BaseColor.tga using Guid(b26ed971f51d79d4f85cb49b41444bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77cc133e1bd70dad85f044fc5248f77f') in 0.013778 seconds 
+  Import took 0.018280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Furniture/Prefabs/3Seat.prefab
+  artifactKey: Guid(4da9f6017c5c2954282fe23c8f297ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/Prefabs/3Seat.prefab using Guid(4da9f6017c5c2954282fe23c8f297ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84f745c772eb9e7ca6e92d225fa69e6e') in 0.022822 seconds 
+  Import took 0.026811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/fridge/Materials/11.mat
+  artifactKey: Guid(e5785b910c55d4b4ca28cd00766e71e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fridge/Materials/11.mat using Guid(e5785b910c55d4b4ca28cd00766e71e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b23266230826a70abc364d03358b4af') in 0.036600 seconds 
+  Import took 0.040509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Arms/Arms_Shotgun/Materials/Accessories.mat
+  artifactKey: Guid(2c325ae987e3e9244b0bd18aed304615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Arms/Arms_Shotgun/Materials/Accessories.mat using Guid(2c325ae987e3e9244b0bd18aed304615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4649b2fef50f2106a3c5c6f6c71cf41f') in 0.043620 seconds 
+  Import took 0.047820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/fridge/Materials/03.mat
+  artifactKey: Guid(175e394cc5529d04ea28934e71d25e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fridge/Materials/03.mat using Guid(175e394cc5529d04ea28934e71d25e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1efae131f126dfbab225e73559adab4c') in 0.010871 seconds 
+  Import took 0.015317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Dinner table/Models/Materials/19122021351a856821ab0fec586bcecfa7cabc8751_b.mat
+  artifactKey: Guid(911dbbc78b2f3a2488977c504090ea30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dinner table/Models/Materials/19122021351a856821ab0fec586bcecfa7cabc8751_b.mat using Guid(911dbbc78b2f3a2488977c504090ea30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf854b6f51d5b4642eaae5a694dc2b9c') in 0.009814 seconds 
+  Import took 0.013436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/HealthItems_Pack/Textures/ammobox_S3.png
+  artifactKey: Guid(989ff7dc17a322542bac7022d30e0b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/HealthItems_Pack/Textures/ammobox_S3.png using Guid(989ff7dc17a322542bac7022d30e0b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db1f198b2f4f668c4eb6c490114a1693') in 0.011979 seconds 
+  Import took 0.016103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/fridge/Materials/11.jpg
+  artifactKey: Guid(ff526727ac44f5c419e26773120d1267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fridge/Materials/11.jpg using Guid(ff526727ac44f5c419e26773120d1267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94450aabf0a0ee23aa337596b6a04414') in 0.007330 seconds 
+  Import took 0.010787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Furniture/Source/Materials/2Seat_BaseColor.mat
+  artifactKey: Guid(79764e7ca9884494cbe558b2bdb1d30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/Source/Materials/2Seat_BaseColor.mat using Guid(79764e7ca9884494cbe558b2bdb1d30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3234e7657993da1acd5266903a5e0ab') in 0.014742 seconds 
+  Import took 0.018656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Furniture/Source/Materials/3SeatDirt_BaseColor.mat
+  artifactKey: Guid(efc342f7b2a0699478373355bfc9d9fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/Source/Materials/3SeatDirt_BaseColor.mat using Guid(efc342f7b2a0699478373355bfc9d9fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c1f78902750667b839fb141266770af') in 0.016749 seconds 
+  Import took 0.020511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/HealthItems_Pack/Textures/ammobox_S4.png
+  artifactKey: Guid(e4f418ec5af0b5a499c28cff539b7167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/HealthItems_Pack/Textures/ammobox_S4.png using Guid(e4f418ec5af0b5a499c28cff539b7167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dffcf8494a2849b100acf6b2e082745') in 0.014624 seconds 
+  Import took 0.018459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Furniture/Source/Textures/2Seat_mask.tga
+  artifactKey: Guid(4fce1f5a96537384c8f15944e2449dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/Source/Textures/2Seat_mask.tga using Guid(4fce1f5a96537384c8f15944e2449dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b9ba13dc8d7b3ad513fea9b8bf0668d') in 0.009918 seconds 
+  Import took 0.013931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/HealthItems_Pack/AmmoBox.fbx
+  artifactKey: Guid(aeddbfcd01a61614d8bca88da0706b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/HealthItems_Pack/AmmoBox.fbx using Guid(aeddbfcd01a61614d8bca88da0706b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2e98a6fc0e92a7bea2507e393ea3090') in 0.029198 seconds 
+  Import took 0.033147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Arms/Arms_Shotgun/Textures/accessories_ao.tga
+  artifactKey: Guid(fdb75c9ab30636c479a6923328281e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Arms/Arms_Shotgun/Textures/accessories_ao.tga using Guid(fdb75c9ab30636c479a6923328281e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d8ef5b8eaa283b4a90115decccc9bb7') in 0.017124 seconds 
+  Import took 0.020649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Furniture/Source/Materials/3Seat2_BaseColor.mat
+  artifactKey: Guid(53aa0875d11cc604a93539387bccc820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/Source/Materials/3Seat2_BaseColor.mat using Guid(53aa0875d11cc604a93539387bccc820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70bce415ee62481ad826db19dec2fdcc') in 0.015092 seconds 
+  Import took 0.018606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Furniture/Prefabs/3Seat2.prefab
+  artifactKey: Guid(bd72486aa780d7c488fce4c5de88266f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/Prefabs/3Seat2.prefab using Guid(bd72486aa780d7c488fce4c5de88266f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93061fa46760e194bc30eb34b706abde') in 0.014749 seconds 
+  Import took 0.018894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/ExampleAssets/Tutorial/Images/1-welcome-screen-image.png
+  artifactKey: Guid(11e34d76fce7843be984510eca5c9139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Tutorial/Images/1-welcome-screen-image.png using Guid(11e34d76fce7843be984510eca5c9139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6c566d2e5edeb8c33f383de631c0ef4') in 0.009865 seconds 
+  Import took 0.013911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Furniture/Source/Textures/2SeatD_BaseColor.tga
+  artifactKey: Guid(ec322fd5963e8974fbc52de2bb31d3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/Source/Textures/2SeatD_BaseColor.tga using Guid(ec322fd5963e8974fbc52de2bb31d3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbff4fab3f0515e6633774efca7f58ca') in 0.009231 seconds 
+  Import took 0.013203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Items/ShotgunAmmo/Textures/AmmoBox_Mixed_AO.png
+  artifactKey: Guid(3a152005d69bbd042beea064bb66ef49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Items/ShotgunAmmo/Textures/AmmoBox_Mixed_AO.png using Guid(3a152005d69bbd042beea064bb66ef49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64c392b880c4766a89f3f4a4ea3e0e5c') in 0.010791 seconds 
+  Import took 0.014521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/fridge/Materials/12.jpg
+  artifactKey: Guid(96e85334bebc5c4418de075bfcf00042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fridge/Materials/12.jpg using Guid(96e85334bebc5c4418de075bfcf00042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49a97a825addffade67b467a674c05ea') in 0.011320 seconds 
+  Import took 0.015004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Arms/Arms_Shotgun/Textures/accessories_normal.tga
+  artifactKey: Guid(bde26f2545f9f21429379f46ba892906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Arms/Arms_Shotgun/Textures/accessories_normal.tga using Guid(bde26f2545f9f21429379f46ba892906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dac6e070c24ea95b1014325affec895') in 0.013092 seconds 
+  Import took 0.016974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Dinner table/Standard Assets/Effects/LightFlares/Flares/50mmZoom.flare
+  artifactKey: Guid(54fbbf098d116effa00081aba8ad6659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dinner table/Standard Assets/Effects/LightFlares/Flares/50mmZoom.flare using Guid(54fbbf098d116effa00081aba8ad6659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76ed3ab88e8a5a599e0bac50f240d13e') in 0.004569 seconds 
+  Import took 0.008644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/HealthItems_Pack/Textures/ammobox_S.png
+  artifactKey: Guid(1bdcbd57fda7cd04ca3219e4c64c07f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/HealthItems_Pack/Textures/ammobox_S.png using Guid(1bdcbd57fda7cd04ca3219e4c64c07f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9659b3bcdfc4306e70aacccafb6f08cd') in 0.009324 seconds 
+  Import took 0.013206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Items/ShotgunAmmo/Textures/AmmoBox_Normal.png
+  artifactKey: Guid(cd6a584b67332f24788601136de7a86a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Items/ShotgunAmmo/Textures/AmmoBox_Normal.png using Guid(cd6a584b67332f24788601136de7a86a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '324d75553a3307b448baad9c0a71a534') in 0.016204 seconds 
+  Import took 0.020524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/fridge/Materials/01a.tga
+  artifactKey: Guid(54795da87036078419c25709614271ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fridge/Materials/01a.tga using Guid(54795da87036078419c25709614271ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51414cdde81d793e314cbb3657210059') in 0.009068 seconds 
+  Import took 0.012768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Items/ShotgunAmmo/Textures/AmmoBox_BaseMap.png
+  artifactKey: Guid(21ec914b2b976e1469a83423695e9c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Items/ShotgunAmmo/Textures/AmmoBox_BaseMap.png using Guid(21ec914b2b976e1469a83423695e9c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7776cbcf723ff9b038afc44151322fcc') in 0.011171 seconds 
+  Import took 0.014724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Items/ShotgunAmmo/Prop_ShotgunAmmo.fbx
+  artifactKey: Guid(52083254f0e5cb841b77d9349ac5d85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Items/ShotgunAmmo/Prop_ShotgunAmmo.fbx using Guid(52083254f0e5cb841b77d9349ac5d85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f9810f9a23979c71c2c3f0ce7451299') in 0.061897 seconds 
+  Import took 0.066167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Furniture/Source/Textures/3SeatDirt_Normal.tga
+  artifactKey: Guid(8379405848fffb5458b0fa2a0b245cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/Source/Textures/3SeatDirt_Normal.tga using Guid(8379405848fffb5458b0fa2a0b245cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dea737d0a66bad1ce81606da1e540fb8') in 0.012362 seconds 
+  Import took 0.016409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Furniture/Source/Mesh/3Seat.fbx
+  artifactKey: Guid(1a946898d5a375744bd71b5d04072493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/Source/Mesh/3Seat.fbx using Guid(1a946898d5a375744bd71b5d04072493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9842e89b21d1c8d1a4b2cc2765986009') in 0.022419 seconds 
+  Import took 0.025946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Furniture/Source/Textures/2SeatD_mask.tga
+  artifactKey: Guid(f1d33e39cf03d834ba5ac2aaf7260c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/Source/Textures/2SeatD_mask.tga using Guid(f1d33e39cf03d834ba5ac2aaf7260c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9a48fb59923801a796f15440df27027') in 0.009847 seconds 
+  Import took 0.013323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Items/ShotgunAmmo/Textures/AmmoBox_Specular.png
+  artifactKey: Guid(44108619ef6fe86499b5b28c2c8a819a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Items/ShotgunAmmo/Textures/AmmoBox_Specular.png using Guid(44108619ef6fe86499b5b28c2c8a819a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '955a44a639d20e95a76572dd8bdb4764') in 0.009638 seconds 
+  Import took 0.013568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/fridge/Materials/01.mat
+  artifactKey: Guid(00536f7494bfda54f99a06e04f577d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fridge/Materials/01.mat using Guid(00536f7494bfda54f99a06e04f577d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7284ceec8d9b43f63a2c9597d62d7342') in 0.010862 seconds 
+  Import took 0.014312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/fridge/Materials/13.png
+  artifactKey: Guid(16c8072d8a2b206498cc95ccc9fc12af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fridge/Materials/13.png using Guid(16c8072d8a2b206498cc95ccc9fc12af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb542050324993a76e9b5502ce2b483b') in 0.007189 seconds 
+  Import took 0.011309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Furniture/Source/Textures/3Seat2D_Normal.tga
+  artifactKey: Guid(26b4462436ee216469164696286f99eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/Source/Textures/3Seat2D_Normal.tga using Guid(26b4462436ee216469164696286f99eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d95b750f388d2d385a2a6b7e83ece77') in 0.011233 seconds 
+  Import took 0.015267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/fridge/Materials/12.mat
+  artifactKey: Guid(b311ceccc8e42194ba183cbba0141daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fridge/Materials/12.mat using Guid(b311ceccc8e42194ba183cbba0141daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5427d40bdc59071310add24f9f13bbb0') in 0.010706 seconds 
+  Import took 0.014618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/fridge/Materials/06.mat
+  artifactKey: Guid(d13e1a33de493af40aadc2a44a71dc84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fridge/Materials/06.mat using Guid(d13e1a33de493af40aadc2a44a71dc84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f42b21f8d5ef6513fe7ee9486c8bf5b4') in 0.014359 seconds 
+  Import took 0.018666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/fridge/Materials/07.jpg
+  artifactKey: Guid(de9566e54c71a2b46a64603e5fa1ecbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fridge/Materials/07.jpg using Guid(de9566e54c71a2b46a64603e5fa1ecbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3487bbe5d7f22362ba1574f102a9325') in 0.009126 seconds 
+  Import took 0.012985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Items/PistolAmmo/Pistol_AmmoBox.fbx
+  artifactKey: Guid(ebc500db4783ba544b087ddd1f17a032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Items/PistolAmmo/Pistol_AmmoBox.fbx using Guid(ebc500db4783ba544b087ddd1f17a032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5e2b14511566c679d94d8806bd6e3da') in 0.062850 seconds 
+  Import took 0.067233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/HealthItems_Pack/Materials/AmmoBox_01.mat
+  artifactKey: Guid(1269711d016a3e04d851d38cd33df0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/HealthItems_Pack/Materials/AmmoBox_01.mat using Guid(1269711d016a3e04d851d38cd33df0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5bfdc7eb253d7ef3201bb16403a7039') in 0.014255 seconds 
+  Import took 0.018455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Furniture/Source/Textures/3Seat2_mask.tga
+  artifactKey: Guid(bfa88983bd139804bb61a5d61e1f070b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/Source/Textures/3Seat2_mask.tga using Guid(bfa88983bd139804bb61a5d61e1f070b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6272bf82a82b2fe5604529547b34a711') in 0.010025 seconds 
+  Import took 0.013991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Furniture/Source/Textures/3Seat2D_BaseColor.tga
+  artifactKey: Guid(81f0e90dc8142c943a860a051695d76d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/Source/Textures/3Seat2D_BaseColor.tga using Guid(81f0e90dc8142c943a860a051695d76d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9d2553e92dd39d9678710a572a9e13a') in 0.011975 seconds 
+  Import took 0.015895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/HealthItems_Pack/Textures/ammobox_S2.png
+  artifactKey: Guid(bee0653f9a17a8948b6604e6b61fe868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/HealthItems_Pack/Textures/ammobox_S2.png using Guid(bee0653f9a17a8948b6604e6b61fe868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cb617534055340aab18595517f05ba2') in 0.012049 seconds 
+  Import took 0.016183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Furniture/Source/Materials/2SeatD_BaseColor.mat
+  artifactKey: Guid(ccba79b675706c24b9844d369f23ade1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/Source/Materials/2SeatD_BaseColor.mat using Guid(ccba79b675706c24b9844d369f23ade1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02a59e95faece1a44194c7f1d8a1ba2d') in 0.015447 seconds 
+  Import took 0.019356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/fridge/Materials/13.mat
+  artifactKey: Guid(c187da0ba263e3845aea3e28cf895cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fridge/Materials/13.mat using Guid(c187da0ba263e3845aea3e28cf895cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5193a0f48fec75c02ff1de39a9236526') in 0.011377 seconds 
+  Import took 0.015531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/fridge/Materials/05.mat
+  artifactKey: Guid(275b17cff55b93c47bd78967d0f2383a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fridge/Materials/05.mat using Guid(275b17cff55b93c47bd78967d0f2383a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fbbfa722bcf93deb08e46ba364bf41b') in 0.013332 seconds 
+  Import took 0.017061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Furniture/Source/Textures/3Seat2_Normal.tga
+  artifactKey: Guid(e7a62a18c972ca44abc3148673336008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/Source/Textures/3Seat2_Normal.tga using Guid(e7a62a18c972ca44abc3148673336008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f2468c883c0b75da6dba696b583ddda') in 0.010807 seconds 
+  Import took 0.014464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/fridge/Materials/08.mat
+  artifactKey: Guid(18782db5a8304314e8b740483d1974ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fridge/Materials/08.mat using Guid(18782db5a8304314e8b740483d1974ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e00536873bd49ba00ad54fad5706b454') in 0.010506 seconds 
+  Import took 0.014226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000440 seconds.
+  path: Assets/Furniture/Source/Mesh/3Seat4.fbx
+  artifactKey: Guid(ae336d95c8140b943993b5e157365001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/Source/Mesh/3Seat4.fbx using Guid(ae336d95c8140b943993b5e157365001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71f42b127c4013dddc480065c4846833') in 0.021882 seconds 
+  Import took 0.026216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/HealthItems_Pack/Materials/AmmoBox_04.mat
+  artifactKey: Guid(9b3f6c9bb6e04d645943723d4825dc58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/HealthItems_Pack/Materials/AmmoBox_04.mat using Guid(9b3f6c9bb6e04d645943723d4825dc58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45d43158a5a36d8b404abc67e1dfa887') in 0.015451 seconds 
+  Import took 0.019478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Furniture/Source/Materials/3Seat2D_BaseColor.mat
+  artifactKey: Guid(543b73a4ce5bf66408a57b3d0a721959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/Source/Materials/3Seat2D_BaseColor.mat using Guid(543b73a4ce5bf66408a57b3d0a721959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '833f52a1c8752368c541bb666de12076') in 0.022284 seconds 
+  Import took 0.026203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/fridge/Materials/14.mat
+  artifactKey: Guid(9aa8b78b27caaf8448dbe2d349d193d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fridge/Materials/14.mat using Guid(9aa8b78b27caaf8448dbe2d349d193d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d9e8feb560df7e1c609ad6bc363ca71') in 0.011185 seconds 
+  Import took 0.015680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/HealthItems_Pack/Textures/ammobox_D3.png
+  artifactKey: Guid(96d0cadfeda5a764980131f23bb84a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/HealthItems_Pack/Textures/ammobox_D3.png using Guid(96d0cadfeda5a764980131f23bb84a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f340efb51a2c785e0984c4ff6f82c5e2') in 0.011670 seconds 
+  Import took 0.015719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Furniture/Source/Textures/2SeatD_Normal.tga
+  artifactKey: Guid(88edae7faff09cd4492fcd83e23080dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/Source/Textures/2SeatD_Normal.tga using Guid(88edae7faff09cd4492fcd83e23080dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a11a301cc4aaaf3395da5d5853a4cad') in 0.010738 seconds 
+  Import took 0.014398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Arms/Arms_Shotgun/Textures/accessories_metal.tga
+  artifactKey: Guid(ec93c52ffdb4af14f853b570b4d92586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Arms/Arms_Shotgun/Textures/accessories_metal.tga using Guid(ec93c52ffdb4af14f853b570b4d92586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c4e07536791a31d255cff46901cd759') in 0.012557 seconds 
+  Import took 0.016844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Items/ShotgunAmmo/Textures/AmmoBox_Metallic.png
+  artifactKey: Guid(442be32db4e903a42bbbb4f61837d038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Items/ShotgunAmmo/Textures/AmmoBox_Metallic.png using Guid(442be32db4e903a42bbbb4f61837d038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b882069b0d474e22e99fdee3326917d0') in 0.012275 seconds 
+  Import took 0.015894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Furniture/Prefabs/3Seat3.prefab
+  artifactKey: Guid(d9e6213ffc5943b4db8396985aa3f894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/Prefabs/3Seat3.prefab using Guid(d9e6213ffc5943b4db8396985aa3f894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f5d4daace8cabfa92756d4dcf4fbb54') in 0.014741 seconds 
+  Import took 0.018533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/HealthItems_Pack/Materials/AmmoBox_02.mat
+  artifactKey: Guid(6dd1e21e70fb09542bc1a2ead669c6b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/HealthItems_Pack/Materials/AmmoBox_02.mat using Guid(6dd1e21e70fb09542bc1a2ead669c6b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61c1041320fce0f64ea223cf021389da') in 0.019782 seconds 
+  Import took 0.023867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Furniture/Prefabs/3seat4.prefab
+  artifactKey: Guid(245712dbd63f6f94e8467250c1caedd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/Prefabs/3seat4.prefab using Guid(245712dbd63f6f94e8467250c1caedd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa93360ba57c67e565ad831134764ae4') in 0.014160 seconds 
+  Import took 0.018348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Furniture/Source/Mesh/3Seat2.fbx
+  artifactKey: Guid(fd8712e1a3b95bf408cf1bf15fb9a131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/Source/Mesh/3Seat2.fbx using Guid(fd8712e1a3b95bf408cf1bf15fb9a131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8db268bc3d1900cdfaaeb2f80c2a008e') in 0.028639 seconds 
+  Import took 0.032316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/HealthItems_Pack/Textures/ammobox_D4.png
+  artifactKey: Guid(de5db3bc9795d3c49822be1753abe431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/HealthItems_Pack/Textures/ammobox_D4.png using Guid(de5db3bc9795d3c49822be1753abe431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '851e51a0c5b759b6f2472873b1a85d04') in 0.010747 seconds 
+  Import took 0.014651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/HealthItems_Pack/Textures/ammobox_N.png
+  artifactKey: Guid(cac5c1d752bbec349a380721dac86d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/HealthItems_Pack/Textures/ammobox_N.png using Guid(cac5c1d752bbec349a380721dac86d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d9b2226288f0e190a2e4bf45a93e166') in 0.013448 seconds 
+  Import took 0.017302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Items/ShotgunAmmo/Textures/AmmoBox_Roughness.png
+  artifactKey: Guid(272008f7148cd50489feeb0ea7666cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Items/ShotgunAmmo/Textures/AmmoBox_Roughness.png using Guid(272008f7148cd50489feeb0ea7666cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a80a57e55c60c485450e23205039393') in 0.009311 seconds 
+  Import took 0.012972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/fridge/Materials/03a.tga
+  artifactKey: Guid(f1ec6c914d2db38418732ab955a0af85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fridge/Materials/03a.tga using Guid(f1ec6c914d2db38418732ab955a0af85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '431af244ffc2af3f53f65e81451bc66d') in 0.007647 seconds 
+  Import took 0.011546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/HealthItems_Pack/Materials/AmmoBox_03.mat
+  artifactKey: Guid(27dcce26dac7c0441a9d6aa90ce4a4ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/HealthItems_Pack/Materials/AmmoBox_03.mat using Guid(27dcce26dac7c0441a9d6aa90ce4a4ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb3289ee2cd23bf59a26160d5ad373c7') in 0.013933 seconds 
+  Import took 0.017691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Interactive/Other/AntiqueRadio.prefab
+  artifactKey: Guid(dc07a15f677ca64448c1e372f15a3876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Interactive/Other/AntiqueRadio.prefab using Guid(dc07a15f677ca64448c1e372f15a3876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43d0def77c341a505962ab990ad5fde1') in 0.041223 seconds 
+  Import took 0.045514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/fridge/Materials/14.jpg
+  artifactKey: Guid(b77f50964fed7b34c85aa69023d46483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fridge/Materials/14.jpg using Guid(b77f50964fed7b34c85aa69023d46483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89d32586795fb18d6a9fed66e68ee2f5') in 0.008147 seconds 
+  Import took 0.012013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/fridge/Materials/06.jpg
+  artifactKey: Guid(0e57f539e240ae74a9c74447698c54a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fridge/Materials/06.jpg using Guid(0e57f539e240ae74a9c74447698c54a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88dd8e9d93042a30ace54c145a64e562') in 0.007474 seconds 
+  Import took 0.011389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Furniture/Source/Textures/3SeatDirt_mask.tga
+  artifactKey: Guid(5a44fcec9a83a9b4ba369b5dfab3a8ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/Source/Textures/3SeatDirt_mask.tga using Guid(5a44fcec9a83a9b4ba369b5dfab3a8ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6129dfe5efe9041f0c7ef726376f448b') in 0.012182 seconds 
+  Import took 0.016205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Arms/Arms_Shotgun/Textures/accessories_roughness.tga
+  artifactKey: Guid(dc23de404b04adf4184282b9e6f18403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Arms/Arms_Shotgun/Textures/accessories_roughness.tga using Guid(dc23de404b04adf4184282b9e6f18403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0ae149d12e0405ec976101904e80d8e') in 0.010089 seconds 
+  Import took 0.014380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Furniture/Source/Textures/3Seat_mask.tga
+  artifactKey: Guid(10d652b3ce4d695489cefffe82691c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/Source/Textures/3Seat_mask.tga using Guid(10d652b3ce4d695489cefffe82691c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9b6656e7ccaddcccbed4499a44ea321') in 0.010020 seconds 
+  Import took 0.013995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Furniture/Source/Textures/2Seat_BaseColor.tga
+  artifactKey: Guid(6efeba75555bc534e893eedd901158ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/Source/Textures/2Seat_BaseColor.tga using Guid(6efeba75555bc534e893eedd901158ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a15fac53291b843daf01804db54cf36') in 0.009212 seconds 
+  Import took 0.012939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/fridge/Materials/10.jpg
+  artifactKey: Guid(9f7b5c742eb6ce54fb6f47c63aa9099e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fridge/Materials/10.jpg using Guid(9f7b5c742eb6ce54fb6f47c63aa9099e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '485ba81045a5df453953873708ba801f') in 0.007377 seconds 
+  Import took 0.011255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/fridge/Materials/02.mat
+  artifactKey: Guid(da16b7e3603400b42a5657196de5a92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fridge/Materials/02.mat using Guid(da16b7e3603400b42a5657196de5a92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0908ff4a6a41ece5334a9299e1b5ac18') in 0.012576 seconds 
+  Import took 0.016899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/fridge/Materials/08.jpg
+  artifactKey: Guid(01604eb1ce032ed4e98b2f51c8a27a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fridge/Materials/08.jpg using Guid(01604eb1ce032ed4e98b2f51c8a27a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '542ff6391d2c767e925a0e16f140ba5b') in 0.009363 seconds 
+  Import took 0.012868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/HealthItems_Pack/Textures/ammobox_D2.png
+  artifactKey: Guid(6fe6a5b645c31ac4c9e5b1d05242ea84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Packs/HealthItems_Pack/Textures/ammobox_D2.png using Guid(6fe6a5b645c31ac4c9e5b1d05242ea84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ffccfa0d575f923c60a41d9d8262ca0') in 0.010307 seconds 
+  Import took 0.014693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/fridge/Materials/04.mat
+  artifactKey: Guid(e00c970d6c68b914ebdf9fa84f50d1d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fridge/Materials/04.mat using Guid(e00c970d6c68b914ebdf9fa84f50d1d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f5fe7f13f3ea8847728cf6fae13f636') in 0.010756 seconds 
+  Import took 0.014698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Furniture/Source/Textures/3Seat_Normal.tga
+  artifactKey: Guid(e56d8a29b833bb9448ec149fdde0871c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/Source/Textures/3Seat_Normal.tga using Guid(e56d8a29b833bb9448ec149fdde0871c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddfbbe18c18d6d698864472f86558ecc') in 0.010495 seconds 
+  Import took 0.014638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Furniture/Source/Textures/2Seat_Normal.tga
+  artifactKey: Guid(3fe011b5495c9f84b80c1a03685efe16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/Source/Textures/2Seat_Normal.tga using Guid(3fe011b5495c9f84b80c1a03685efe16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baf8ae15244ae0a19ce4b902e39e22d8') in 0.010316 seconds 
+  Import took 0.013737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/fridge/Materials/10.mat
+  artifactKey: Guid(8e892768759e7c449a3a6117fd88a636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fridge/Materials/10.mat using Guid(8e892768759e7c449a3a6117fd88a636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d316cb13b132ac82bf4ac4ec3ffe474') in 0.010953 seconds 
+  Import took 0.014960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Furniture/Source/Mesh/3Seat3.fbx
+  artifactKey: Guid(b07a91327abd3554ab170725ff8ae7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/Source/Mesh/3Seat3.fbx using Guid(b07a91327abd3554ab170725ff8ae7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd04c22225aa3369c4f4e5f2bc7ac03aa') in 0.020698 seconds 
+  Import took 0.025003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Furniture/Source/Textures/3SeatDirt_BaseColor.tga
+  artifactKey: Guid(5e44a7f75c2b6cb4893079118e51e2e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/Source/Textures/3SeatDirt_BaseColor.tga using Guid(5e44a7f75c2b6cb4893079118e51e2e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dbe0a56efcbc7562a9ff4e5bd4df461') in 0.009115 seconds 
+  Import took 0.013269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Furniture/Source/Textures/3Seat2_BaseColor.tga
+  artifactKey: Guid(a18aa7b38d8427e4093771dfcdac7c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/Source/Textures/3Seat2_BaseColor.tga using Guid(a18aa7b38d8427e4093771dfcdac7c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f21310bbed0389dad112059c36b2cbc') in 0.010031 seconds 
+  Import took 0.013918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Furniture/Source/Textures/3Seat2D_mask.tga
+  artifactKey: Guid(49d9243b26fef7849beb17dd739b254f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/Source/Textures/3Seat2D_mask.tga using Guid(49d9243b26fef7849beb17dd739b254f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3761eb8a9e792c4351a3fb04706894d5') in 0.011513 seconds 
+  Import took 0.015439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/fridge/Materials/07.mat
+  artifactKey: Guid(7a00a38fdbcf4a441974245031627423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fridge/Materials/07.mat using Guid(7a00a38fdbcf4a441974245031627423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edebd2b432f0f4667bebb79ed7c14cc3') in 0.008908 seconds 
+  Import took 0.012504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/fridge/Materials/02a.tga
+  artifactKey: Guid(043b8a8ff12a70a45aca341b89bcfefe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fridge/Materials/02a.tga using Guid(043b8a8ff12a70a45aca341b89bcfefe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29eadf22dfb8dba19363a642ed294c06') in 0.009545 seconds 
+  Import took 0.013921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/fridge/Materials/04a.tga
+  artifactKey: Guid(ab732cc941ad449489143bed07f96960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fridge/Materials/04a.tga using Guid(ab732cc941ad449489143bed07f96960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '583844e26a89bed5406b11312dbb3116') in 0.009972 seconds 
+  Import took 0.013741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/fridge/Materials/09.tga
+  artifactKey: Guid(12ca9ed4d2f63914abd80fed987c74cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fridge/Materials/09.tga using Guid(12ca9ed4d2f63914abd80fed987c74cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6647f55bcfc146de46e94d9a5bef5baf') in 0.009466 seconds 
+  Import took 0.013477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Furniture/Source/Materials/3Seat_BaseColor.mat
+  artifactKey: Guid(e286cf7166a64d9449570f485ef91be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/Source/Materials/3Seat_BaseColor.mat using Guid(e286cf7166a64d9449570f485ef91be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ad3e2af45f97ac12dc9d8f861c8a2d7') in 0.017283 seconds 
+  Import took 0.021202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Items/ShotgunAmmo/Textures/AmmoBox_Height.png
+  artifactKey: Guid(d58c470c8c208594f99d72ca626ed683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Items/ShotgunAmmo/Textures/AmmoBox_Height.png using Guid(d58c470c8c208594f99d72ca626ed683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b88770fdf956d5829c6d612ef3e477d') in 0.008865 seconds 
+  Import took 0.013182 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012456 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.35 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.15 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Usuario\Desktop\PROYECTOS\VR-Terror\VR-TerrorGame\Library\PackageCache\com.unity.xr.oculus@1.11.2\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Usuario\Desktop\PROYECTOS\VR-Terror\VR-TerrorGame\Library\PackageCache\com.unity.xr.oculus@1.11.2\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <af1a2f671a98418f910899d70a717c00>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.924 seconds
+Domain Reload Profiling:
+	ReloadAssembly (924ms)
+		BeginReloadAssembly (105ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (761ms)
+			LoadAssemblies (94ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (254ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (296ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (192ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.47 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.26 ms.
+Unloading 2639 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 140.3 MB.
+System memory in use after: 140.6 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3285.
+Total: 3.319500 ms (FindLiveObjects: 0.237500 ms CreateObjectMapping: 0.067100 ms MarkObjects: 2.986000 ms  DeleteObjects: 0.028000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 106.208235 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/AntiqueRadio
+  artifactKey: Guid(28d1fcfca49ce5e4b9293a483eea3a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/AntiqueRadio using Guid(28d1fcfca49ce5e4b9293a483eea3a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cda02709980b2e7b828d3c0e38193ddd') in 0.005819 seconds 
+  Import took 0.010194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.243485 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/ElectricBox
+  artifactKey: Guid(ceec829699a4c534788ad90b29066974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/ElectricBox using Guid(ceec829699a4c534788ad90b29066974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d6c1691273e6ab0e6768ffb96b6efc2') in 0.002674 seconds 
+  Import took 0.007079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.069081 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/ElectricBox/ElectricBox.fbx
+  artifactKey: Guid(e5dfb0e0e9d696b4db71f3b61ec4bfce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/ElectricBox/ElectricBox.fbx using Guid(e5dfb0e0e9d696b4db71f3b61ec4bfce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55443f91389eec1c64f0b7829aadce69') in 0.086022 seconds 
+  Import took 0.090446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.365311 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/Ladder
+  artifactKey: Guid(abf37f8a6b2730647a9b0647311de2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/Ladder using Guid(abf37f8a6b2730647a9b0647311de2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f25e1bafd830ec6112260ccb2931e699') in 0.002424 seconds 
+  Import took 0.006284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.060814 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/Ladder/items_diffuse.png
+  artifactKey: Guid(eda0d1a78c543b14fa0f3c94ddcb11e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/Ladder/items_diffuse.png using Guid(eda0d1a78c543b14fa0f3c94ddcb11e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a29aa3af9581537426779eb7819a1f9e') in 0.026447 seconds 
+  Import took 0.030306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/Ladder/ladder_1.fbx
+  artifactKey: Guid(cd743efcd2ad0e744aa8b04ef61ce332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/Ladder/ladder_1.fbx using Guid(cd743efcd2ad0e744aa8b04ef61ce332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf5e52ba7ab614c1e9bae4b04d25968c') in 0.032315 seconds 
+  Import took 0.036155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/Ladder/ladder_2.fbx
+  artifactKey: Guid(41dfef17da21fbe40b311443cbbb652a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/Ladder/ladder_2.fbx using Guid(41dfef17da21fbe40b311443cbbb652a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc84ed41126151c00959d552007278f6') in 0.035995 seconds 
+  Import took 0.039956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.809552 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Items
+  artifactKey: Guid(9fe55b62032f0e544bbd44b71ab9ffeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Items using Guid(9fe55b62032f0e544bbd44b71ab9ffeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba78616ecd9d76c745f2b352607cd657') in 0.002498 seconds 
+  Import took 0.006496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.816633 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Items/Herb
+  artifactKey: Guid(30c82bb6641b3374cb5f9700d4df5c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Items/Herb using Guid(30c82bb6641b3374cb5f9700d4df5c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '350fb1df2b5cf35a534de35c05b9c9a4') in 0.002463 seconds 
+  Import took 0.006420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.057644 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Items/Herb/Herb.fbx
+  artifactKey: Guid(42abd280a7b9374499f79abfd74df590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Items/Herb/Herb.fbx using Guid(42abd280a7b9374499f79abfd74df590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff193cd8fb0e0770812cbc0a855c224b') in 0.037636 seconds 
+  Import took 0.042248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.274304 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Items/OilBottle
+  artifactKey: Guid(e1e7411c6f8bea544990c7838c32e6c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Items/OilBottle using Guid(e1e7411c6f8bea544990c7838c32e6c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d5bef9f32cf1216d5e6cba94a033802') in 0.002461 seconds 
+  Import took 0.006255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.089062 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Items/OilBottle/OilBottle.fbx
+  artifactKey: Guid(91f7df127f5dade40ab8c68f3c3d83d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Items/OilBottle/OilBottle.fbx using Guid(91f7df127f5dade40ab8c68f3c3d83d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a506c136128c36760376ca35a70e3577') in 0.031067 seconds 
+  Import took 0.035078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.963535 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Items/PistolAmmo
+  artifactKey: Guid(ff16806d49bef714586b79a51c9f1ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Items/PistolAmmo using Guid(ff16806d49bef714586b79a51c9f1ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cec93ad805f8b0e8b81bbaafc516a3f3') in 0.002426 seconds 
+  Import took 0.006358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.246276 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Items/Medicine
+  artifactKey: Guid(cdce15a044187ba4e912e142bb0c21a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Items/Medicine using Guid(cdce15a044187ba4e912e142bb0c21a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab58ad8929a2426b91f7dd31841e7025') in 0.002509 seconds 
+  Import took 0.006270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.054527 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Items/Medicine/Medicine.fbx
+  artifactKey: Guid(c8b7e993c7fd1144f9a82b73c77332df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Items/Medicine/Medicine.fbx using Guid(c8b7e993c7fd1144f9a82b73c77332df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '693480555c5bd359ab771137672e7ece') in 0.028125 seconds 
+  Import took 0.032087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.720040 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Items/ShotgunAmmo
+  artifactKey: Guid(050fe93d82bd64b49b043dfce92f5945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Models/Interactive/_Items/ShotgunAmmo using Guid(050fe93d82bd64b49b043dfce92f5945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdf9191982c36b85240d6648a2b83df5') in 0.002410 seconds 
+  Import took 0.006388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 171.711138 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Scriptables/Game Scriptables/Objectives 2/Cookies Grandma.asset
+  artifactKey: Guid(2f071b51d34e2ef4ab44bb6cf2ef26c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Scriptables/Game Scriptables/Objectives 2/Cookies Grandma.asset using Guid(2f071b51d34e2ef4ab44bb6cf2ef26c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f8c7cccfc096435df98432cfe73d350') in 0.003592 seconds 
+  Import took 0.007919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 72.044324 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Scriptables/Game Scriptables/Objectives 2/Cookies Grandma.asset
+  artifactKey: Guid(2f071b51d34e2ef4ab44bb6cf2ef26c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Scriptables/Game Scriptables/Objectives 2/Cookies Grandma.asset using Guid(2f071b51d34e2ef4ab44bb6cf2ef26c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e68fd59964e020fe7b60d261f2b76a5') in 0.002902 seconds 
+  Import took 0.007219 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013377 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.16 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Usuario\Desktop\PROYECTOS\VR-Terror\VR-TerrorGame\Library\PackageCache\com.unity.xr.oculus@1.11.2\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Usuario\Desktop\PROYECTOS\VR-Terror\VR-TerrorGame\Library\PackageCache\com.unity.xr.oculus@1.11.2\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <af1a2f671a98418f910899d70a717c00>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.895 seconds
+Domain Reload Profiling:
+	ReloadAssembly (896ms)
+		BeginReloadAssembly (104ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (737ms)
+			LoadAssemblies (90ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (258ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (277ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (179ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.12 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+Unloading 2639 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 140.4 MB.
+System memory in use after: 140.6 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3289.
+Total: 3.112900 ms (FindLiveObjects: 0.243300 ms CreateObjectMapping: 0.080700 ms MarkObjects: 2.763800 ms  DeleteObjects: 0.024300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011730 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.26 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.17 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Usuario\Desktop\PROYECTOS\VR-Terror\VR-TerrorGame\Library\PackageCache\com.unity.xr.oculus@1.11.2\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Usuario\Desktop\PROYECTOS\VR-Terror\VR-TerrorGame\Library\PackageCache\com.unity.xr.oculus@1.11.2\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <af1a2f671a98418f910899d70a717c00>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.918 seconds
+Domain Reload Profiling:
+	ReloadAssembly (919ms)
+		BeginReloadAssembly (108ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (755ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (263ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (284ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (185ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.14 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+Unloading 2639 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 140.4 MB.
+System memory in use after: 140.7 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3292.
+Total: 3.160900 ms (FindLiveObjects: 0.238500 ms CreateObjectMapping: 0.079700 ms MarkObjects: 2.819700 ms  DeleteObjects: 0.022500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011655 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Usuario\Desktop\PROYECTOS\VR-Terror\VR-TerrorGame\Library\PackageCache\com.unity.xr.oculus@1.11.2\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Usuario\Desktop\PROYECTOS\VR-Terror\VR-TerrorGame\Library\PackageCache\com.unity.xr.oculus@1.11.2\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <af1a2f671a98418f910899d70a717c00>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.864 seconds
+Domain Reload Profiling:
+	ReloadAssembly (864ms)
+		BeginReloadAssembly (98ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (713ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (243ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (274ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (177ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.12 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+Unloading 2639 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 140.4 MB.
+System memory in use after: 140.7 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3295.
+Total: 3.200800 ms (FindLiveObjects: 0.234900 ms CreateObjectMapping: 0.084000 ms MarkObjects: 2.858400 ms  DeleteObjects: 0.022500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
