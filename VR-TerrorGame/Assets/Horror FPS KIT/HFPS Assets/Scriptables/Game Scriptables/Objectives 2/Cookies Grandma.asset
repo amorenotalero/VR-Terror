@@ -15,31 +15,33 @@ MonoBehaviour:
   Objectives:
   - shortName: "Ve al sal\xF3n "
     eventID: 
-    objectiveText: "Ve al sal\xF3n "
+    objectiveText: "Busca a tu abuela, debe de estar en sal\xF3n.\n(Debe de estar
+      viendo la tele en su sillon favorito...)"
     completeCount: 0
     objectiveID: 0
     localeKey: 
   - shortName: 'Ve al comedor '
     eventID: 
-    objectiveText: "Comprueba el sal\xF3n y cuando estes listo ve al comedor "
+    objectiveText: "Busca a tu abuela en el comedor.\n(Estar\xE1 comiendo algo...)"
     completeCount: 0
     objectiveID: 1
     localeKey: 
   - shortName: "Ve al ba\xF1o "
     eventID: 
-    objectiveText: "Comprueba el comedor y ve al ba\xF1o "
+    objectiveText: "Busca a tu abuela en el ba\xF1o.\n(Quizas ha ido un momnetito
+      al ba\xF1o...)"
     completeCount: 0
     objectiveID: 2
     localeKey: 
   - shortName: Ve a la cocina
     eventID: 
-    objectiveText: "Comprueba el ba\xF1o y ve a la cocina"
+    objectiveText: " Busca a tu abuela en la cocina.\n(\xBFEstar\xE1 haciendo croquetas?)"
     completeCount: 0
     objectiveID: 3
     localeKey: 
   - shortName: 'Ve al dormitorio '
     eventID: 
-    objectiveText: 'Comprueba la cocina y ve al dormitorio de tu abuela '
+    objectiveText: "Busca a tu abuela en el dormitorio.\n(Se habr\xE1 ido a dormir)"
     completeCount: 0
     objectiveID: 4
     localeKey: 

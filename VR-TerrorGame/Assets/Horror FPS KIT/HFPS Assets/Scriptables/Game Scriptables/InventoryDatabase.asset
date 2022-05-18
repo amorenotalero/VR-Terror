@@ -2070,4 +2070,55 @@ MonoBehaviour:
     localizationSettings:
       titleKey: IItem.Title.12Gauge
       descriptionKey: IItem.Desc.12Gauge
+  - Title: New Item 38
+    ID: 38
+    Description: 
+    itemType: 0
+    useActionType: 0
+    itemSprite: {fileID: 0}
+    DropObject:
+      GUID: 
+      Object: {fileID: 0}
+    PackDropObject:
+      GUID: 
+      Object: {fileID: 0}
+    itemToggles:
+      isStackable: 0
+      isUsable: 0
+      isCombinable: 0
+      isDroppable: 0
+      isRemovable: 0
+      restoreStamina: 0
+      canExamine: 1
+      canBindShortcut: 0
+      combineAddItem: 0
+      combineKeepItem: 0
+      combineShowItem: 0
+      showItemOnUse: 0
+      bagDescription: 0
+      doActionUse: 0
+      doActionCombine: 0
+    itemSounds:
+      useSound: {fileID: 0}
+      useVolume: 1
+      combineSound: {fileID: 0}
+      combineVolume: 1
+    itemSettings:
+      maxStackAmount: 0
+      useSwitcherID: -1
+      healAmount: 0
+      staminaAmount: 0
+      examineRotation: {x: 0, y: 0, z: 0}
+    useActionSettings:
+      triggerValue: 0
+      triggerItemID: 0
+      triggerCustomValue: 
+      actionRemove: 0
+      actionAddItem: 0
+      actionRestrictUse: 0
+      actionRestrictCombine: 0
+    combineSettings: []
+    localizationSettings:
+      titleKey: 
+      descriptionKey: 
   enableLocalization: 1

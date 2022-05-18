@@ -74,7 +74,7 @@ MonoBehaviour:
     Text: Objective Pre-Completed
     IsUppercase: 0
   - Key: Objective.Updated
-    Text: Objective Updated
+    Text: Objetivo Actualizado
     IsUppercase: 0
   - Key: GameUI.BagEmpty
     Text: is empty!
