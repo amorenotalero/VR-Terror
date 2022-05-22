@@ -47,6 +47,9 @@ namespace HFPS.Systems
         bool hasLinterna;
         bool hasLlave;
 
+        int cont1 = 0;
+        int cont2 = 0;
+
         void Start()
         {
             keepRunningTimer = true;
@@ -136,13 +139,19 @@ namespace HFPS.Systems
                     {
                         timerLlave = timerLlave + Time.deltaTime;
                     }
-                    if (linterna.itemTaken == true)
+                    if (linterna.itemTaken == true && cont1 != 1)
                     {
                         hasLinterna = true;
+                        cont1 = 1;
+                        Debug.Log("TIENE LINTERNA");
+                        Debug.Log("Timepo linterna = "+timerLinterna);
                     }
-                    if (llave.itemTaken == true)
+                    if (llave.itemTaken == true && cont2 != 1)
                     {
                         hasLlave = true;
+                        cont2 = 1;
+                        Debug.Log("TIENE LLAVE");
+                        Debug.Log("Timepo llave = " + timerLlave);
                     }
                     if (electricitySwither.isUp)
                     {
@@ -150,26 +159,40 @@ namespace HFPS.Systems
 
                         List<string> list = new List<string>();
 
-                        string datosHabitaciones = "t_salon,t_comedor,t_aseo,t_cocina,t_dormitorio";
+                        string datosHabitaciones = "t_salon;t_comedor;t_aseo;t_cocina;t_dormitorio";
+                        /*
                         string timeSalon = formatTime(timerSalon);
                         string timeComedor = formatTime(timerComedor);
                         string timeBano = formatTime(timerBano);
                         string timeCocina = formatTime(timerCocina);
                         string timeDormitorio = formatTime(timerDormitorio);
-                        string timeHabitaciones = timeSalon + "," + timeComedor + "," + timeBano + "," + timeCocina + "," + timeDormitorio;
+                        */
+                        string timeSalon = timerSalon.ToString();
+                        string timeComedor = timerComedor.ToString();
+                        string timeBano = timerBano.ToString();
+                        string timeCocina = timerCocina.ToString();
+                        string timeDormitorio = timerDormitorio.ToString();
+                        string timeHabitaciones = timeSalon + ";" + timeComedor + ";" + timeBano + ";" + timeCocina + ";" + timeDormitorio;
 
                         list.Add(datosHabitaciones);
                         list.Add(timeHabitaciones);
 
+
                         string datosExploracion = "tiempo_exploracion";
-                        string timeExploracion = formatTime(timerExploracion);
+                        //string timeExploracion = formatTime(timerExploracion);
+                        string timeExploracion = timerExploracion.ToString();
 
                         list.Add(datosExploracion);
                         list.Add(timeExploracion);
 
-                        string datosObjetos = "t_linterna,t_llave";
+                        string datosObjetos = "t_linterna;t_llave";
+                        /*
                         string timeLinterna = formatTime(timerLinterna);
                         string timeLlave = formatTime(timerLlave);
+                        */
+                        string timeLinterna = timerLinterna.ToString(); 
+                        string timeLlave = timerLlave.ToString(); 
+
                         string timeObjetos = timeLinterna + "," + timeLlave;
 
                         list.Add(datosObjetos);
@@ -177,13 +200,15 @@ namespace HFPS.Systems
 
                         string datosReaccion = "tiempo_reaccion";
                         timerReaccion = timer - timerExploracion;
-                        string timeReaccion = formatTime(timerReaccion);
+                        // string timeReaccion = formatTime(timerReaccion);
+                        string timeReaccion = timerReaccion.ToString();
 
                         list.Add(datosReaccion);
                         list.Add(timeReaccion);
 
                         string datosTotal = "tiempo_total";
-                        string timeTotal = formatTime(timer);
+                        //string timeTotal = formatTime(timer);
+                        string timeTotal = timer.ToString();
 
                         list.Add(datosTotal);
                         list.Add(timeTotal);

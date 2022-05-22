@@ -1,10 +1,10 @@
 t_salon,t_comedor,t_aseo,t_cocina,t_dormitorio
-0:13,0:13,0:22,0:19,0:10
+1,378912,3,843087,6,761759,10,43795,18,37615
 tiempo_exploracion
-1:18
+41,87337
 t_linterna,t_llave
-0:11,0:11
+7,482636,24,07719
 tiempo_reaccion
-1:22
+45,491
 tiempo_total
-2:40
+87,36438
