@@ -15,33 +15,36 @@ MonoBehaviour:
   Objectives:
   - shortName: "Ve al sal\xF3n "
     eventID: 
-    objectiveText: "Busca a tu abuela, debe de estar en sal\xF3n.\n(Debe de estar
-      viendo la tele en su sillon favorito...)"
+    objectiveText: "Busca a tu abuela, debe de estar en sal\xF3n y exploralo.\n(Debe
+      de estar viendo la tele en su sillon favorito...)"
     completeCount: 0
     objectiveID: 0
     localeKey: 
   - shortName: 'Ve al comedor '
     eventID: 
-    objectiveText: "Busca a tu abuela en el comedor.\n(Estar\xE1 comiendo algo...)"
+    objectiveText: "Busca a tu abuela en el comedor y exploralo.\n(Estar\xE1 comiendo
+      algo...)"
     completeCount: 0
     objectiveID: 1
     localeKey: 
   - shortName: "Ve al ba\xF1o "
     eventID: 
-    objectiveText: "Busca a tu abuela en el ba\xF1o.\n(Quizas ha ido un momnetito
-      al ba\xF1o...)"
+    objectiveText: "Busca a tu abuela en el ba\xF1o y exploralo.\n(Quizas ha ido
+      un momnetito al ba\xF1o...)"
     completeCount: 0
     objectiveID: 2
     localeKey: 
   - shortName: Ve a la cocina
     eventID: 
-    objectiveText: " Busca a tu abuela en la cocina.\n(\xBFEstar\xE1 haciendo croquetas?)"
+    objectiveText: " Busca a tu abuela en la cocina y exploralo.\n(\xBFEstar\xE1
+      haciendo croquetas?)"
     completeCount: 0
     objectiveID: 3
     localeKey: 
   - shortName: 'Ve al dormitorio '
     eventID: 
-    objectiveText: "Busca a tu abuela en el dormitorio.\n(Se habr\xE1 ido a dormir)"
+    objectiveText: "Busca a tu abuela en el dormitorio y exploralo.\n(Se habr\xE1
+      ido a dormir)"
     completeCount: 0
     objectiveID: 4
     localeKey: 
@@ -53,8 +56,14 @@ MonoBehaviour:
     localeKey: 
   - shortName: Luces
     eventID: 
-    objectiveText: Encuentra algo para encender la luz
+    objectiveText: Encuentra algo para poder ver
     completeCount: 0
     objectiveID: 6
+    localeKey: 
+  - shortName: Enciende el cuadro de mandos
+    eventID: 
+    objectiveText: Encuentra una manera de encender el cuadro de mandos
+    completeCount: 0
+    objectiveID: 7
     localeKey: 
   enableLocalization: 0
