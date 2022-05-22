@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - SALON
+  - COMEDOR
+  - COCINA
+  - BANO
+  - DORMITORIO
+  - MISION
   layers:
   - Default
   - TransparentFX

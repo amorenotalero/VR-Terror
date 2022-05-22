@@ -277,7 +277,7 @@ GameObject:
   - component: {fileID: 38433520}
   m_Layer: 0
   m_Name: '5-IR A LA HABITACION '
-  m_TagString: Untagged
+  m_TagString: COCINA
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5341,7 +5341,7 @@ GameObject:
   - component: {fileID: 461709046}
   m_Layer: 0
   m_Name: '6-EXPLORA LA HABITACION '
-  m_TagString: Untagged
+  m_TagString: DORMITORIO
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9841,7 +9841,7 @@ GameObject:
   - component: {fileID: 862941209}
   m_Layer: 0
   m_Name: "3-IR AL BA\xD1O "
-  m_TagString: Untagged
+  m_TagString: COMEDOR
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9967,7 +9967,7 @@ GameObject:
   - component: {fileID: 870532069}
   m_Layer: 0
   m_Name: 4-IR A LA COCINA
-  m_TagString: Untagged
+  m_TagString: BANO
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18131,7 +18131,7 @@ GameObject:
   - component: {fileID: 1594278169}
   m_Layer: 0
   m_Name: '1-IR AL SALON '
-  m_TagString: Untagged
+  m_TagString: MISION
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22053,7 +22053,7 @@ GameObject:
   - component: {fileID: 2025131225}
   m_Layer: 0
   m_Name: '2-IR AL COMEDOR '
-  m_TagString: Untagged
+  m_TagString: SALON
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
