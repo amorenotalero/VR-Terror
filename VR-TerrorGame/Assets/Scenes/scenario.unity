@@ -8068,8 +8068,18 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 838293617a0cbfd45aa0d9cec34641de, type: 2}
     - target: {fileID: 108278535973419418, guid: e86ea1df2d0226d459df687ad038a750,
         type: 3}
+      propertyPath: m_Range
+      value: 5.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 108278535973419418, guid: e86ea1df2d0226d459df687ad038a750,
+        type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 108278535973419418, guid: e86ea1df2d0226d459df687ad038a750,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 0.56
       objectReference: {fileID: 0}
     - target: {fileID: 108278535973419418, guid: e86ea1df2d0226d459df687ad038a750,
         type: 3}
