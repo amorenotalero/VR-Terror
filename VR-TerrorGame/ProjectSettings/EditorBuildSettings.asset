@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 4f0e90a6a09fb784e94b85b387943261
+  - enabled: 1
+    path: Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/SceneLoader.unity
+    guid: e92d1d4c15fc07a42b93b5e226dab4fd
+  - enabled: 1
     path: Assets/Scenes/scenario.unity
     guid: a3848dce9a6f5b4429a3f9e7e169d919
   m_configObjects:

@@ -28321,7 +28321,7 @@ MonoBehaviour:
   SelectFirstSave: 1
   isMainMenu: 1
   setStartNewGame: 1
-  NewGameBuildName: TheHouse Demo
+  NewGameBuildName: scenario
   SaveDeleteButton: {fileID: 0}
   ContinueButton: {fileID: 183870691}
   NewGameButton: {fileID: 1228977602}
@@ -28546,6 +28546,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_MoveRepeatDelay: 0.5
   m_MoveRepeatRate: 0.1
+  m_XRTrackingOrigin: {fileID: 0}
   m_ActionsAsset: {fileID: -944628639613478452, guid: 6a5b747bfb88fef43b5f5b3294fe5359,
     type: 3}
   m_PointAction: {fileID: 1054132383583890850, guid: 6a5b747bfb88fef43b5f5b3294fe5359,

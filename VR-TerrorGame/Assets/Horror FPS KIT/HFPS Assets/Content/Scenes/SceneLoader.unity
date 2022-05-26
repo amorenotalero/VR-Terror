@@ -316,6 +316,38 @@ PrefabInstance:
       propertyPath: m_Name
       value: _SCENELOADER
       objectReference: {fileID: 0}
+    - target: {fileID: 1099973476762869362, guid: b1aa73eb19c9acd41a7a3265a54a67f2,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 65824f8f945afb045b274e91b6ebf42d,
+        type: 3}
+    - target: {fileID: 3021880972353244024, guid: b1aa73eb19c9acd41a7a3265a54a67f2,
+        type: 3}
+      propertyPath: SceneInfos.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3021880972353244024, guid: b1aa73eb19c9acd41a7a3265a54a67f2,
+        type: 3}
+      propertyPath: SceneInfos.Array.data[0].LevelName
+      value: Where is my Granny?
+      objectReference: {fileID: 0}
+    - target: {fileID: 3021880972353244024, guid: b1aa73eb19c9acd41a7a3265a54a67f2,
+        type: 3}
+      propertyPath: SceneInfos.Array.data[0].Background
+      value: 
+      objectReference: {fileID: 21300000, guid: 65824f8f945afb045b274e91b6ebf42d,
+        type: 3}
+    - target: {fileID: 3021880972353244024, guid: b1aa73eb19c9acd41a7a3265a54a67f2,
+        type: 3}
+      propertyPath: SceneInfos.Array.data[0].SceneBuildName
+      value: scenario
+      objectReference: {fileID: 0}
+    - target: {fileID: 3021880972353244024, guid: b1aa73eb19c9acd41a7a3265a54a67f2,
+        type: 3}
+      propertyPath: SceneInfos.Array.data[0].LevelDescription
+      value: Demo. Developed by PCA Games 2022
+      objectReference: {fileID: 0}
     - target: {fileID: 5368730163172809352, guid: b1aa73eb19c9acd41a7a3265a54a67f2,
         type: 3}
       propertyPath: m_Pivot.x
